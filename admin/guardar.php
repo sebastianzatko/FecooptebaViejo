@@ -36,7 +36,7 @@
 	$texto=isset($_POST['noticia'])? $_POST['noticia']:null;
 	$titulo=isset($_POST['titulo'])? $_POST['titulo']:null;
 	$sinp=isset($_POST['sinop'])? $_POST['sinop']:null;
-	
+	$tamano=isset($_POST['tamano'])? $_POST['tamano']:null;
 	if(isset($_POST['actividad'])){
 		$actividad=$_POST['actividad'];
 	}else{
@@ -99,9 +99,9 @@
 	$fecha=isset($_POST["fecha"])? $_POST["fecha"]:null;
 	
 	if($fecha==null){
-		$query="INSERT INTO `noticia`(`id_noticia`,`sinopsis`, `texto`,`titulo`,`portada`,`destacada`,`actividad`,`slider`,`prioridad`) VALUES ('$id','$sinp','$texto','$titulo','$archivo','$destacada','$actividad','$slider','$prioridad')";
+		$query="INSERT INTO `noticia`(`id_noticia`,`sinopsis`, `texto`,`titulo`,`portada`,`destacada`,`actividad`,`slider`,`prioridad`,`tamaño`) VALUES ('$id','$sinp','$texto','$titulo','$archivo','$destacada','$actividad','$slider','$prioridad','$tamano')";
 	}else{
-		$query="INSERT INTO `noticia`(`id_noticia`,`sinopsis`, `texto`,`titulo`,`portada`,`destacada`,`actividad`,`slider`,`prioridad`,`fecha`) VALUES ('$id','$sinp','$texto','$titulo','$archivo','$destacada','$actividad','$slider','$prioridad','$fecha')";
+		$query="INSERT INTO `noticia`(`id_noticia`,`sinopsis`, `texto`,`titulo`,`portada`,`destacada`,`actividad`,`slider`,`prioridad`,`fecha`,`tamaño`) VALUES ('$id','$sinp','$texto','$titulo','$archivo','$destacada','$actividad','$slider','$prioridad','$fecha','$tamano')";
 	}
 	
 	

@@ -171,7 +171,7 @@
 		
 		
 		<form action="enviarconsulta.php"  class="yosolohagopop" method="POST">
-			<img src="icons/gmail.svg" class="iconitoscorterepiola" /><h2 class="titulodeconsulta">CONSULTAS DIRECTAS :</h2>
+			<img src="icons/gmail.svg" class="iconitoscorterepiola" /><h2 class="titulodeconsulta">CONSULTAS DIRECTAS A SOPORTE TECNICO :</h2>
 			<textarea id="summernote" name="mensaje" class="ingr89" maxlength="300" required></textarea>
 			<hr style='margin-top:3%;width:90%;margin-left:5%;margin-bottom:5%; '>
 			

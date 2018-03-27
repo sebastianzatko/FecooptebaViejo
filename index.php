@@ -188,13 +188,15 @@
 							
 					
 					}
+					echo "<div class='pagina12'><iframe  style='width: 100%;height: 550px;margin-top:8%;margin-bottom:8%;'src='https://www.pagina12.com.ar/'></iframe></div>";
 					echo "</section>";
 				}else{
 					
 				}
 			
 			?>
-			<iframe src="https://www.pagina12.com.ar/"></iframe>
+
+			
 		
 		<section class="footer">
 		<footer>

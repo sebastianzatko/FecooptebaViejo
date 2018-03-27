@@ -25,6 +25,7 @@
 	$texto=isset($_POST['noticia'])? $_POST['noticia']:null;
 	$titulo=isset($_POST['titulo'])? $_POST['titulo']:null;
 	$sinp=isset($_POST['sinop'])? $_POST['sinop']:null;
+	$tamano=isset($_POST['tamano'])? $_POST['tamano']:null;
 	if(isset($_POST['actividad'])){
 		$actividad=$_POST['actividad'];
 	}else{
@@ -96,9 +97,9 @@
 	$fecha=isset($_POST["fecha"])? $_POST["fecha"]:null;
 	
 	if($fecha==null){
-		$query="UPDATE `noticia` SET `sinopsis`='$sinp',`texto`='$texto',`titulo`='$titulo',`portada`='$archivo',`destacada`='$destacada',`actividad`='$actividad',`prioridad`='$prioridad' WHERE id_noticia=$idea";
+		$query="UPDATE `noticia` SET `sinopsis`='$sinp',`texto`='$texto',`titulo`='$titulo',`portada`='$archivo',`destacada`='$destacada',`actividad`='$actividad',`prioridad`='$prioridad',`tamaño`='$tamaño' WHERE id_noticia=$idea";
 	}else{
-		$query="UPDATE `noticia` SET `sinopsis`='$sinp',`texto`='$texto',`titulo`='$titulo',`portada`='$archivo',`destacada`='$destacada',`actividad`='$actividad',`prioridad`='$prioridad',`fecha`='$fecha' WHERE id_noticia=$idea";
+		$query="UPDATE `noticia` SET `sinopsis`='$sinp',`texto`='$texto',`titulo`='$titulo',`portada`='$archivo',`destacada`='$destacada',`actividad`='$actividad',`prioridad`='$prioridad',`fecha`='$fecha',`tamaño`='$tamano' WHERE id_noticia=$idea";
 	}
 	
 	$sqlre="SELECT * FROM noticiaasociado WHERE id_noticia=$idea";

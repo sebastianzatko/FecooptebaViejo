@@ -3,6 +3,12 @@
     margin-right: 5%;
     float: right;
 	}
+	.vinculorelacionado{
+		width:100%;
+		height:25%;
+		margin-bottom: 15%;
+		margin-top: 15%;
+	}
 	.undivparamarkzuckerberg{
 		width:100%;
 		margin-top: 2%;
@@ -195,14 +201,21 @@
 				width: 90%;
 		}
 		.nmros{
-		    text-align: center;
-    display: inline-block;
-    background: #006bbd;
-	width: 50px;
-    height: 50px;
-    margin: 1px;
-    margin-bottom: 25px;
-    border: 1px solid black;
+		text-align: center;
+		display:inline-block;
+		background: #006bbd;
+		width:50px;
+		height:50px;
+		margin: 1px;
+		margin-bottom: 25px;
+		border: 1px solid black;
+	}
+	.nmros a{
+		padding: 14px 14px;
+		display: block;
+		color:white;
+		width: 100%;
+		height: 100%;
 	}
 	.nmros a:hover{
 		background: #fff;
@@ -233,7 +246,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -317,8 +330,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 15%;
+				margin-top: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -706,6 +719,408 @@
 			font-family: 'Lato', sans-serif;
 		}
 			 /*Estilos Base*/ 
+			 /*Estilos Base*/ 
+	.contenedor-img {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style:solid;
+		border-color:#023859;
+		border-width:13px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom:4%;
+		margin-top:4%;
+		
+		}
+		.contenedor-img .mascara,.contenedor-img .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 22px;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0
+		}
+		.contenedor-img p {    
+			font-size: 16px;
+			position: relative;
+			color: #fff;
+			padding: 10px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:3%;
+		}
+		.contenedor-img a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			color: #fff;
+			font-size: 22px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 1px #000;
+		}
+			.contenedor-img a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara { 
+			background-color: #023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2{
+			background: #80c8ee;
+			color: fff;
+			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+
+		/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+		/*Estilos Base*/ 
+	.contenedor-img2 {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style: solid;
+		border-color: #008891;
+		border-width: 13px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 4%;
+		margin-top: 4%;
+		
+		}
+		.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img2 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img2 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 22px;
+			border-bottom: 5px solid #008891;
+			border-right: none;
+			border-left: none;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0;
+		}
+		.contenedor-img2 p {    
+			font-size: 16px;
+			position: relative;
+			color: #fff;
+			padding: 0px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:5%;
+		}
+		.contenedor-img2 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #008891;
+			color: black;
+			font-size: 22px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 25px #000;
+		}
+			.contenedor-img2 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara2 { 
+			background-color:#023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2.nose{
+			background: #80c8ee;
+			color: black;
+			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+			border-bottom: 5px solid #E8FFC1;
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara2 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+		
+
+		.contenedor-img2 .mascara2 .icon{
+			margin:10%;
+		}
+		.contenedor-img2 .mascara2 .icon i{
+			display: inline-block;
+			width: 40px;
+			height:40px ;
+			margin:5%;
+			padding: 2px;
+			box-shadow: 0 0 1px #000;
+			font-size: 35px;
+			background: #80c8ee;
+			color:black;
+		}
+		.contenedor-img2 .mascara2 .icon #edi:hover{
+			background: orange;
+		}
+		.contenedor-img2 .mascara2 .icon #bas:hover{
+			background: red;
+			}		
+	/*Segunda caja OFF*/
+
+	/*Tercera Cjaaaaaaaaaa      ON    */
+	.notisec3{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec3 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			/*Estilos Base*/ 
+		.contenedor-img3 {
+			width: 100%;
+			height: 70%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #87DFD6;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+				width: 300px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img3 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			
+			}
+			.contenedor-img3 h2 {
+				color: black;
+				text-align: center;
+				position: relative;
+				font-size: 22px;
+				border-bottom: 5px solid #87DFD6;
+				padding: 10px;
+				background: #F9F8EB;
+				margin: 5% 0 0 0;
+				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+			}
+			.contenedor-img3 p {    
+				font-size: 16px;
+				position: relative;
+				color: #fff;
+				padding: 0px 20px 10px;
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img3 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #F9F8EB;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #87DFD6;
+				color: black;
+				font-size: 22px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img3 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara3 { 
+				background-color:#33425B;
+				transform: translateX(-300px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+			}
+			
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara3 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img3 .mascara3 .icon{
+				margin:10%;
+			}
+			.contenedor-img3 .mascara3 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background:#87DFD6;
+				color:black;
+			}
+			.contenedor-img3 .mascara3 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img3 .mascara3 .icon #bas:hover{
+				background: red;
+			}		
+	/*Tercera caja OFF*/
 			/*Estilos Base*/ 
 	.contenedor-img {
 		width: 100%;
@@ -1088,7 +1503,7 @@
 			
 
 			.contenedor-img3 .mascara3 .icon{
-				margin:10%;
+				margin:1%;
 			}
 			.contenedor-img3 .mascara3 .icon i{
 				display: inline-block;
@@ -2433,6 +2848,12 @@
 		margin-top: 2%;
 		margin-bottom: 2%;
 	}
+	.vinculorelacionado{
+		width:100%;
+		height:25%;
+		margin-bottom: 15%;
+		margin-top: 15%;
+	}
 	.soloqueiroterminareiradormir{
 		text-decoration: none;
 		color:black;
@@ -2624,22 +3045,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width: 50px;
-    height: 50px;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -2669,7 +3090,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -2752,8 +3173,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 15%;
+				margin-top: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -3114,6 +3535,409 @@
 			font-family: 'Lato', sans-serif;
 		}
 			 /*Estilos Base*/ 
+			 /*Estilos Base*/ 
+	.contenedor-img {
+		width: 100%;
+		height: 50%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style:solid;
+		border-color:#023859;
+		border-width:13px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom:4%;
+		margin-top:4%;
+		
+		}
+		.contenedor-img .mascara,.contenedor-img .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 22px;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0
+		}
+		.contenedor-img p {    
+			font-size: 16px;
+			position: relative;
+			color: #fff;
+			padding: 10px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:3%;
+		}
+		.contenedor-img a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			color: #fff;
+			font-size: 22px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 1px #000;
+		}
+			.contenedor-img a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara { 
+			background-color: #023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2{
+			background: #80c8ee;
+			color: fff;
+			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+
+		/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+		/*Estilos Base*/ 
+	.contenedor-img2 {
+		width: 100%;
+		height: 50%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style: solid;
+		border-color: #008891;
+		border-width: 13px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 4%;
+		margin-top: 4%;
+		
+		}
+		.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img2 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img2 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 22px;
+			border-bottom: 5px solid #008891;
+			border-right: none;
+			border-left: none;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0;
+		}
+		.contenedor-img2 p {    
+			font-size: 16px;
+			position: relative;
+			color: #fff;
+			padding: 0px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:5%;
+		}
+		.contenedor-img2 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #008891;
+			color: black;
+			font-size: 22px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 25px #000;
+		}
+			.contenedor-img2 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara2 { 
+			background-color:#023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2.nose{
+			background: #80c8ee;
+			color: black;
+			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+			border-bottom: 5px solid #E8FFC1;
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara2 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+		
+
+		.contenedor-img2 .mascara2 .icon{
+			margin:10%;
+		}
+		.contenedor-img2 .mascara2 .icon i{
+			display: inline-block;
+			width: 40px;
+			height:40px ;
+			margin:5%;
+			padding: 2px;
+			box-shadow: 0 0 1px #000;
+			font-size: 35px;
+			background: #80c8ee;
+			color:black;
+		}
+		.contenedor-img2 .mascara2 .icon #edi:hover{
+			background: orange;
+		}
+		.contenedor-img2 .mascara2 .icon #bas:hover{
+			background: red;
+			}		
+	/*Segunda caja OFF*/
+
+	/*Tercera Cjaaaaaaaaaa      ON    */
+	.notisec3{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec3 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			/*Estilos Base*/ 
+		.contenedor-img3 {
+			width: 100%;
+			height: 50%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #87DFD6;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+				width: 300px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img3 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			
+			}
+			.contenedor-img3 h2 {
+				color: black;
+				text-align: center;
+				position: relative;
+				font-size: 22px;
+				border-bottom: 5px solid #87DFD6;
+				padding: 10px;
+				background: #F9F8EB;
+				margin: 5% 0 0 0;
+				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+			}
+			.contenedor-img3 p {    
+				font-size: 16px;
+				position: relative;
+				color: #fff;
+				padding: 0px 10px 10px;
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img3 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #F9F8EB;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #87DFD6;
+				color: black;
+				font-size: 22px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img3 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara3 { 
+				background-color:#33425B;
+				transform: translateX(-300px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+			}
+			
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara3 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img3 .mascara3 .icon{
+				margin:10%;
+			}
+			.contenedor-img3 .mascara3 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background:#87DFD6;
+				color:black;
+			}
+			.contenedor-img3 .mascara3 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img3 .mascara3 .icon #bas:hover{
+				background: red;
+			}		
+	/*Tercera caja OFF*/
+	
 			/*Estilos Base*/ 
 	.contenedor-img {
 		width: 100%;
@@ -3496,7 +4320,7 @@
 			
 
 			.contenedor-img3 .mascara3 .icon{
-				margin:10%;
+				margin:1%;
 			}
 			.contenedor-img3 .mascara3 .icon i{
 				display: inline-block;
@@ -4834,6 +5658,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-bottom: 15%;
+				margin-top: 15%;
 	}
 	.undivparamarkzuckerberg{
 		margin-left: 10%;
@@ -5031,22 +5857,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width: 50px;
-    height: 50px;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -5076,7 +5902,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -5159,8 +5985,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 15%;
+				margin-top: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -5420,6 +6246,408 @@
 		/*Estilos Base*/ 
 	.contenedor-img {
 		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style:solid;
+		border-color:#023859;
+		border-width:13px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom:4%;
+		margin-top:4%;
+		
+		}
+		.contenedor-img .mascara,.contenedor-img .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0
+		}
+		.contenedor-img p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			padding: 10px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:3%;
+		}
+		.contenedor-img a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			color: #fff;
+			font-size: 25px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 1px #000;
+		}
+			.contenedor-img a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara { 
+			background-color: #023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2{
+			background: #80c8ee;
+			color: fff;
+			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+
+		/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+		/*Estilos Base*/ 
+	.contenedor-img2 {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style: solid;
+		border-color: #008891;
+		border-width: 13px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 4%;
+		margin-top: 4%;
+		
+		}
+		.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img2 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img2 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			border-bottom: 5px solid #008891;
+			border-right: none;
+			border-left: none;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0;
+		}
+		.contenedor-img2 p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			padding: 0px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:5%;
+		}
+		.contenedor-img2 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #008891;
+			color: black;
+			font-size: 25px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 25px #000;
+		}
+			.contenedor-img2 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara2 { 
+			background-color:#023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2.nose{
+			background: #80c8ee;
+			color: black;
+			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+			border-bottom: 5px solid #E8FFC1;
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara2 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+		
+
+		.contenedor-img2 .mascara2 .icon{
+			margin:10%;
+		}
+		.contenedor-img2 .mascara2 .icon i{
+			display: inline-block;
+			width: 40px;
+			height:40px ;
+			margin:5%;
+			padding: 2px;
+			box-shadow: 0 0 1px #000;
+			font-size: 35px;
+			background: #80c8ee;
+			color:black;
+		}
+		.contenedor-img2 .mascara2 .icon #edi:hover{
+			background: orange;
+		}
+		.contenedor-img2 .mascara2 .icon #bas:hover{
+			background: red;
+			}		
+	/*Segunda caja OFF*/
+
+	/*Tercera Cjaaaaaaaaaa      ON    */
+	.notisec3{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec3 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			/*Estilos Base*/ 
+		.contenedor-img3 {
+			width: 100%;
+			height: 70%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #87DFD6;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+				width: 300px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img3 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			
+			}
+			.contenedor-img3 h2 {
+				color: black;
+				text-align: center;
+				position: relative;
+				font-size: 25px;
+				border-bottom: 5px solid #87DFD6;
+				padding: 10px;
+				background: #F9F8EB;
+				margin: 5% 0 0 0;
+				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+			}
+			.contenedor-img3 p {    
+				font-size: 18px;
+				position: relative;
+				color: #fff;
+				padding: 0px 10px 10px;
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img3 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #F9F8EB;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #87DFD6;
+				color: black;
+				font-size: 25px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img3 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara3 { 
+				background-color:#33425B;
+				transform: translateX(-300px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+			}
+			
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara3 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img3 .mascara3 .icon{
+				margin:10%;
+			}
+			.contenedor-img3 .mascara3 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background:#87DFD6;
+				color:black;
+			}
+			.contenedor-img3 .mascara3 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img3 .mascara3 .icon #bas:hover{
+				background: red;
+			}		
+	/*Tercera caja OFF*/
+		/*Estilos Base*/ 
+	.contenedor-img {
+		width: 100%;
 		height: 50%;
 		float: left;
 		overflow: hidden;
@@ -5468,10 +6696,10 @@
 			font-size: 16px;
 			position: relative;
 			color: #fff;
-			padding: 10px 20px 10px;
+			
 			text-align: center;
-			margin:5%;
-			margin-bottom:3%;
+			margin:4%;
+			
 		}
 		.contenedor-img a.link {
 			display: inline-block;
@@ -5593,10 +6821,10 @@
 			font-size: 16px;
 			position: relative;
 			color: #fff;
-			padding: 0px 20px 10px;
+			
 			text-align: center;
-			margin:5%;
-			margin-bottom:5%;
+			margin:4%;
+			
 		}
 		.contenedor-img2 a.link {
 			display: inline-block;
@@ -5740,10 +6968,10 @@
 				font-size: 16px;
 				position: relative;
 				color: #fff;
-				padding: 0px 10px 10px;
+				
 				text-align: center;
-				margin:5%;
-				margin-bottom:5%;
+				margin:4%;
+			
 			}
 			.contenedor-img3 a.link {
 				display: inline-block;
@@ -5799,7 +7027,7 @@
 			
 
 			.contenedor-img3 .mascara3 .icon{
-				margin:10%;
+				margin:1%;
 			}
 			.contenedor-img3 .mascara3 .icon i{
 				display: inline-block;
@@ -7158,6 +8386,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-bottom: 15%;
+		margin-top: 15%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -7337,22 +8567,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width: 50px;
-    	height: 50px;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -7382,7 +8612,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -7465,8 +8695,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 15%;
+				margin-top: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -8124,6 +9354,408 @@
 				background: orange;
 			}
 			.contenedor-img3 .mascara3 .icon #bas:hover{
+				background: red;
+			}		
+	/*Tercera caja OFF*/
+		/*Estilos Base*/ 
+	.contenedor-img7 {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style:solid;
+		border-color:#023859;
+		border-width:13px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom:4%;
+		margin-top:4%;
+		
+		}
+		.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img7 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img7 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0
+		}
+		.contenedor-img7 p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			
+			text-align: center;
+			margin:4%;
+			
+		}
+		.contenedor-img7 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			color: #fff;
+			font-size: 25px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 1px #000;
+		}
+			.contenedor-img7 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara7 { 
+			background-color: #023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2{
+			background: #80c8ee;
+			color: fff;
+			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara7 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+
+		/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+		/*Estilos Base*/ 
+	.contenedor-img8 {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style: solid;
+		border-color: #008891;
+		border-width: 13px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 4%;
+		margin-top: 4%;
+		
+		}
+		.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img8 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		
+		}
+		.contenedor-img8 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			border-bottom: 5px solid #008891;
+			border-right: none;
+			border-left: none;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0;
+		}
+		.contenedor-img8 p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			
+			text-align: center;
+			margin:4%;
+		
+		}
+		.contenedor-img8 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #008891;
+			color: black;
+			font-size: 25px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 25px #000;
+		}
+			.contenedor-img8 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara8 { 
+			background-color:#023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2.nose{
+			background: #80c8ee;
+			color: black;
+			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+			border-bottom: 5px solid #E8FFC1;
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara8 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+		
+
+		.contenedor-img8 .mascara8 .icon{
+			margin:10%;
+		}
+		.contenedor-img8 .mascara8 .icon i{
+			display: inline-block;
+			width: 40px;
+			height:40px ;
+			margin:5%;
+			padding: 2px;
+			box-shadow: 0 0 1px #000;
+			font-size: 35px;
+			background: #80c8ee;
+			color:black;
+		}
+		.contenedor-img8 .mascara8 .icon #edi:hover{
+			background: orange;
+		}
+		.contenedor-img8 .mascara8 .icon #bas:hover{
+			background: red;
+			}		
+	/*Segunda caja OFF*/
+
+	/*Tercera Cjaaaaaaaaaa      ON    */
+	.notisec3{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec3 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			/*Estilos Base*/ 
+		.contenedor-img9 {
+			width: 100%;
+			height: 70%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #87DFD6;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+				width: 300px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img9 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			
+			}
+			.contenedor-img9 h2 {
+				color: black;
+				text-align: center;
+				position: relative;
+				font-size: 25px;
+				border-bottom: 5px solid #87DFD6;
+				padding: 10px;
+				background: #F9F8EB;
+				margin: 5% 0 0 0;
+				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+			}
+			.contenedor-img9 p {    
+				font-size: 18px;
+				position: relative;
+				color: #fff;
+				
+				text-align: center;
+				margin:4%;
+				
+			}
+			.contenedor-img9 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #F9F8EB;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #87DFD6;
+				color: black;
+				font-size: 25px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img9 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara9 { 
+				background-color:#33425B;
+				transform: translateX(-300px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+			}
+			
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara9 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img9 .mascara9 .icon{
+				margin:1%;
+			}
+			.contenedor-img9 .mascara9 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background:#87DFD6;
+				color:black;
+			}
+			.contenedor-img9 .mascara9 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img9 .mascara9 .icon #bas:hover{
 				background: red;
 			}		
 	/*Tercera caja OFF*/
@@ -9466,6 +11098,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 13%;
+    margin-bottom: 13%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -9645,22 +11279,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width:5%;
-		height:5%;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -9690,7 +11324,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -9775,8 +11409,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 13%;
+				margin-top: 13%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -10035,10 +11669,413 @@
 				
 				
 			}
-			/*Estilos Base*/ 
-		.contenedor-img {
+			 /*Estilos Base*/ 
+	.contenedor-img {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style:solid;
+		border-color:#023859;
+		border-width:13px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom:4%;
+		margin-top:4%;
+		
+		}
+		.contenedor-img .mascara,.contenedor-img .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		   
+		}
+		.contenedor-img h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0
+		}
+		.contenedor-img p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			padding: 10px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:3%;
+		}
+		.contenedor-img a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			color: #fff;
+			font-size: 30px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 1px #000;
+		}
+			.contenedor-img a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara { 
+			background-color: #023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2{
+			background: #80c8ee;
+			color: fff;
+			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+
+		/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+		 /*Estilos Base*/ 
+	.contenedor-img2 {
+		width: 100%;
+		height: 70%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #fff;
+		border-style: solid;
+		border-color: #008891;
+		border-width: 13px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 4%;
+		margin-top: 4%;
+		
+		}
+		.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0
+		}
+		.contenedor-img2 img {
+			display: block;
+			position: relative;
+			width:100%;
+			height:100%;
+		   
+		}
+		.contenedor-img2 h2 {
+			
+			color: #fff;
+			text-align: center;
+			position: relative;
+			font-size: 25px;
+			border-bottom: 5px solid #008891;
+			border-right: none;
+			border-left: none;
+			padding: 10px;
+			background: #006bbd;
+			margin: 5% 0 0 0;
+		}
+		.contenedor-img2 p {    
+			font-size: 18px;
+			position: relative;
+			color: #fff;
+			padding: 0px 20px 10px;
+			text-align: center;
+			margin:5%;
+			margin-bottom:5%;
+		}
+		.contenedor-img2 a.link {
+			display: inline-block;
+			padding: 7px 14px;
+			background: #80c8ee;
+			text-transform: uppercase;
+			width: 50%;
+			text-decoration: none;
+			border: none;
+			border-bottom: 5px solid #008891;
+			color: black;
+			font-size: 30px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			box-shadow: 0 0 25px #000;
+		}
+			.contenedor-img2 a.link:hover {
+				box-shadow: 0 0 5px ;
+				background-color:white;
+				color:black;
+			}
+			
+
+		
+
+
+		/*Ejemplo 3*/
+		.ejemplo-3 img {
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 .mascara2 { 
+			background-color:#023859;
+			transform: translateX(-300px);
+			opacity: 1;
+			transition: all 0.4s ease-in-out; 
+		}
+		.ejemplo-3 h2.nose{
+			background: #80c8ee;
+			color: black;
+			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+			border-bottom: 5px solid #E8FFC1;
+		}
+		.ejemplo-3 p{
+			color: fff;   
+		}
+		.ejemplo-3:hover .mascara2 { 
+			transform: translateX(0px);
+			
+			height:100%;
+		}						
+		.ejemplo-3:hover img { 
+			transform: translateX(300px);	
+		}
+		
+
+		.contenedor-img2 .mascara2 .icon{
+			margin:10%;
+		}
+		.contenedor-img2 .mascara2 .icon i{
+			display: inline-block;
+			width: 40px;
+			height:40px ;
+			margin:5%;
+			padding: 2px;
+			box-shadow: 0 0 1px #000;
+			font-size: 35px;
+			background: #80c8ee;
+			color:black;
+		}
+		.contenedor-img2 .mascara2 .icon #edi:hover{
+			background: orange;
+		}
+		.contenedor-img2 .mascara2 .icon #bas:hover{
+			background: red;
+			}		
+	/*Segunda caja OFF*/
+
+	/*Tercera Cjaaaaaaaaaa      ON    */
+	.notisec3{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec3 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			 /*Estilos Base*/ 
+		.contenedor-img3 {
 			width: 100%;
 			height: 70%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #87DFD6;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+				width: 300px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img3 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			   
+			}
+			.contenedor-img3 h2 {
+				color: black;
+				text-align: center;
+				position: relative;
+				font-size: 25px;
+				border-bottom: 5px solid #87DFD6;
+				padding: 10px;
+				background: #F9F8EB;
+				margin: 5% 0 0 0;
+				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+			}
+			.contenedor-img3 p {    
+				font-size: 18px;
+				position: relative;
+				color: #fff;
+				padding: 0px 10px 10px;
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img3 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #F9F8EB;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #87DFD6;
+				color: black;
+				font-size: 30px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img3 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara3 { 
+				background-color:#33425B;
+				transform: translateX(-300px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+			}
+			
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara3 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img3 .mascara3 .icon{
+				margin:10%;
+			}
+			.contenedor-img3 .mascara3 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background:#87DFD6;
+				color:black;
+			}
+			.contenedor-img3 .mascara3 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img3 .mascara3 .icon #bas:hover{
+				background: red;
+			}		
+	/*Tercera caja OFF*/
+	
+			/*Estilos Base*/ 
+		.contenedor-img7 {
+			width: 100%;
+			height:  500px;
 			float: left;
 			overflow: hidden;
 			position: relative;
@@ -10057,7 +12094,7 @@
 			margin-top:4%;
 			
 			}
-			.contenedor-img .mascara,.contenedor-img .contenido {
+			.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
 				width: 300px;
 				height: 200px;
 				position: absolute;
@@ -10065,14 +12102,14 @@
 				top: 0;
 				left: 0
 			}
-			.contenedor-img img {
+			.contenedor-img7 img {
 				display: block;
 				position: relative;
 				width:100%;
 				height:100%;
 			
 			}
-			.contenedor-img h2 {
+			.contenedor-img7 h2 {
 				
 				color: #fff;
 				text-align: center;
@@ -10082,16 +12119,16 @@
 				background: #006bbd;
 				margin: 5% 0 0 0
 			}
-			.contenedor-img p {    
-				font-size: 18px;
+			.contenedor-img7 p {    
+				font-size: 16px;
 				position: relative;
 				color: #fff;
-				padding: 10px 20px 10px;
+				
 				text-align: center;
-				margin:5%;
-				margin-bottom:3%;
+				margin:4%;
+			
 			}
-			.contenedor-img a.link {
+			.contenedor-img7 a.link {
 				display: inline-block;
 				padding: 7px 14px;
 				background: #80c8ee;
@@ -10105,7 +12142,7 @@
 				font-family: 'Open Sans Condensed', sans-serif;
 				box-shadow: 0 0 1px #000;
 			}
-				.contenedor-img a.link:hover {
+				.contenedor-img7 a.link:hover {
 					box-shadow: 0 0 5px ;
 					background-color:white;
 					color:black;
@@ -10119,7 +12156,7 @@
 			.ejemplo-3 img {
 				transition: all 0.4s ease-in-out; 
 			}
-			.ejemplo-3 .mascara { 
+			.ejemplo-3 .mascara7 { 
 				background-color: #023859;
 				transform: translateX(-300px);
 				opacity: 1;
@@ -10133,7 +12170,7 @@
 			.ejemplo-3 p{
 				color: fff;   
 			}
-			.ejemplo-3:hover .mascara { 
+			.ejemplo-3:hover .mascara7 { 
 				transform: translateX(0px);
 				
 				height:100%;
@@ -10158,9 +12195,9 @@
 				
 			}
 			/*Estilos Base*/ 
-		.contenedor-img2 {
+		.contenedor-img8 {
 			width: 100%;
-			height: 70%;
+			height: 500px;
 			float: left;
 			overflow: hidden;
 			position: relative;
@@ -10179,7 +12216,7 @@
 			margin-top: 4%;
 			
 			}
-			.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+			.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
 				width: 300px;
 				height: 200px;
 				position: absolute;
@@ -10187,14 +12224,14 @@
 				top: 0;
 				left: 0
 			}
-			.contenedor-img2 img {
+			.contenedor-img8 img {
 				display: block;
 				position: relative;
 				width:100%;
 				height:100%;
 			
 			}
-			.contenedor-img2 h2 {
+			.contenedor-img8 h2 {
 				
 				color: #fff;
 				text-align: center;
@@ -10207,16 +12244,16 @@
 				background: #006bbd;
 				margin: 5% 0 0 0;
 			}
-			.contenedor-img2 p {    
-				font-size: 18px;
+			.contenedor-img8 p {    
+				font-size: 16px;
 				position: relative;
 				color: #fff;
-				padding: 0px 20px 10px;
+				
 				text-align: center;
-				margin:5%;
-				margin-bottom:5%;
+				margin:4%;
+				
 			}
-			.contenedor-img2 a.link {
+			.contenedor-img8 a.link {
 				display: inline-block;
 				padding: 7px 14px;
 				background: #80c8ee;
@@ -10230,7 +12267,7 @@
 				font-family: 'Open Sans Condensed', sans-serif;
 				box-shadow: 0 0 25px #000;
 			}
-				.contenedor-img2 a.link:hover {
+				.contenedor-img8 a.link:hover {
 					box-shadow: 0 0 5px ;
 					background-color:white;
 					color:black;
@@ -10244,7 +12281,7 @@
 			.ejemplo-3 img {
 				transition: all 0.4s ease-in-out; 
 			}
-			.ejemplo-3 .mascara2 { 
+			.ejemplo-3 .mascara8 { 
 				background-color:#023859;
 				transform: translateX(-300px);
 				opacity: 1;
@@ -10259,7 +12296,7 @@
 			.ejemplo-3 p{
 				color: fff;   
 			}
-			.ejemplo-3:hover .mascara2 { 
+			.ejemplo-3:hover .mascara8 { 
 				transform: translateX(0px);
 				
 				height:100%;
@@ -10269,10 +12306,10 @@
 			}
 			
 
-			.contenedor-img2 .mascara2 .icon{
+			.contenedor-img8 .mascara8 .icon{
 				margin:10%;
 			}
-			.contenedor-img2 .mascara2 .icon i{
+			.contenedor-img8 .mascara8 .icon i{
 				display: inline-block;
 				width: 40px;
 				height:40px ;
@@ -10283,10 +12320,10 @@
 				background: #80c8ee;
 				color:black;
 			}
-			.contenedor-img2 .mascara2 .icon #edi:hover{
+			.contenedor-img8 .mascara8 .icon #edi:hover{
 				background: orange;
 			}
-			.contenedor-img2 .mascara2 .icon #bas:hover{
+			.contenedor-img8 .mascara8 .icon #bas:hover{
 				background: red;
 				}		
 		/*Segunda caja OFF*/
@@ -10307,9 +12344,9 @@
 				
 			}
 				/*Estilos Base*/ 
-			.contenedor-img3 {
+			.contenedor-img9 {
 				width: 100%;
-				height: 70%;
+				height:  500px;
 				float: left;
 				overflow: hidden;
 				position: relative;
@@ -10328,7 +12365,7 @@
 				margin-top: 4%;
 				
 				}
-				.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+				.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
 					width: 300px;
 					height: 200px;
 					position: absolute;
@@ -10336,14 +12373,14 @@
 					top: 0;
 					left: 0
 				}
-				.contenedor-img3 img {
+				.contenedor-img9 img {
 					display: block;
 					position: relative;
 					width:100%;
 					height:100%;
 				
 				}
-				.contenedor-img3 h2 {
+				.contenedor-img9 h2 {
 					color: black;
 					text-align: center;
 					position: relative;
@@ -10354,16 +12391,16 @@
 					margin: 5% 0 0 0;
 					box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
 				}
-				.contenedor-img3 p {    
-					font-size: 18px;
+				.contenedor-img9 p {    
+					font-size: 16px;
 					position: relative;
 					color: #fff;
-					padding: 0px 20px 10px;
+					
 					text-align: center;
-					margin:5%;
-					margin-bottom:5%;
+					margin:4%;
+					
 				}
-				.contenedor-img3 a.link {
+				.contenedor-img9 a.link {
 					display: inline-block;
 					padding: 7px 14px;
 					background: #F9F8EB;
@@ -10377,7 +12414,7 @@
 					font-family: 'Open Sans Condensed', sans-serif;
 					box-shadow: 0 0 25px #000;
 				}
-					.contenedor-img3 a.link:hover {
+					.contenedor-img9 a.link:hover {
 						box-shadow: 0 0 5px ;
 						background-color:white;
 						color:black;
@@ -10391,13 +12428,13 @@
 				.ejemplo-3 img {
 					transition: all 0.4s ease-in-out; 
 				}
-				.ejemplo-3 .mascara3 { 
+				.ejemplo-3 .mascara9 { 
 					background-color:#33425B;
 					transform: translateX(-300px);
 					opacity: 1;
 					transition: all 0.4s ease-in-out; 
 				}
-				.ejemplo-3 h2.nose3{
+				.ejemplo-3 h2.nose9{
 					background: #80c8ee;
 					color: black;
 					box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
@@ -10406,7 +12443,7 @@
 				.ejemplo-3 p{
 					color: fff;   
 				}
-				.ejemplo-3:hover .mascara3 { 
+				.ejemplo-3:hover .mascara9 { 
 					transform: translateX(0px);
 					
 					height:100%;
@@ -10416,10 +12453,10 @@
 				}
 				
 
-				.contenedor-img3 .mascara3 .icon{
-					margin:10%;
+				.contenedor-img9 .mascara9 .icon{
+					margin:1%;
 				}
-				.contenedor-img3 .mascara3 .icon i{
+				.contenedor-img9 .mascara9 .icon i{
 					display: inline-block;
 					width: 40px;
 					height:40px ;
@@ -10430,10 +12467,10 @@
 					background:#87DFD6;
 					color:black;
 				}
-				.contenedor-img3 .mascara3 .icon #edi:hover{
+				.contenedor-img93 .mascara9 .icon #edi:hover{
 					background: orange;
 				}
-				.contenedor-img3 .mascara3 .icon #bas:hover{
+				.contenedor-img9 .mascara9 .icon #bas:hover{
 					background: red;
 				}		
 		/*Tercera caja OFF*/
@@ -11784,6 +13821,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 15%;
+    margin-bottom: 15%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -11963,22 +14002,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width:5%;
-		height:5%;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -12008,7 +14047,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -12091,8 +14130,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-top: 15%;
+   			 margin-bottom: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -12352,408 +14391,813 @@
 			
 			
 		}
-		 /*Estilos Base*/ 
-	.contenedor-img {
-		width: 100%;
-		height: 70%;
-		float: left;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-		cursor: default;
-		background: #fff;
-		border-style:solid;
-		border-color:#023859;
-		border-width:13px;
-		border-left:none;
-		border-right:none;
-		border-top:none;
-		margin-left:2%;
-		margin-right:2%;
-		margin-bottom:4%;
-		margin-top:4%;
-		
-		}
-		.contenedor-img .mascara,.contenedor-img .contenido {
-			width: 300px;
-			height: 200px;
-			position: absolute;
-			overflow: hidden;
-			top: 0;
-			left: 0
-		}
-		.contenedor-img img {
-			display: block;
-			position: relative;
-			width:100%;
-			height:100%;
-		   
-		}
-		.contenedor-img h2 {
-			
-			color: #fff;
-			text-align: center;
-			position: relative;
-			font-size: 25px;
-			padding: 10px;
-			background: #006bbd;
-			margin: 5% 0 0 0
-		}
-		.contenedor-img p {    
-			font-size: 18px;
-			position: relative;
-			color: #fff;
-			padding: 10px 20px 10px;
-			text-align: center;
-			margin:5%;
-			margin-bottom:3%;
-		}
-		.contenedor-img a.link {
-			display: inline-block;
-			padding: 7px 14px;
-			background: #80c8ee;
-			text-transform: uppercase;
-			width: 50%;
-			text-decoration: none;
-			border: none;
-			border-bottom: 5px solid #006bbd;
-			color: #fff;
-			font-size: 30px;
-			font-family: 'Open Sans Condensed', sans-serif;
-			box-shadow: 0 0 1px #000;
-		}
-			.contenedor-img a.link:hover {
-				box-shadow: 0 0 5px ;
-				background-color:white;
-				color:black;
-			}
-			
-
-		
-
-
-		/*Ejemplo 3*/
-		.ejemplo-3 img {
-			transition: all 0.4s ease-in-out; 
-		}
-		.ejemplo-3 .mascara { 
-			background-color: #023859;
-			transform: translateX(-300px);
-			opacity: 1;
-			transition: all 0.4s ease-in-out; 
-		}
-		.ejemplo-3 h2{
-			background: #80c8ee;
-			color: fff;
-			box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
-		}
-		.ejemplo-3 p{
-			color: fff;   
-		}
-		.ejemplo-3:hover .mascara { 
-			transform: translateX(0px);
-			
-			height:100%;
-		}						
-		.ejemplo-3:hover img { 
-			transform: translateX(300px);	
-		}
-
-		/*SEGunda Cjaaaaaaaaaa*/
-	.notisec2{
-		width:65%;
-		float:left;
-		display:inline-block;
-		margin-left:2%;
-		font-size:30px;
-		font-family: 'Open Sans', sans-serif;
-		font-weight:300;
-		}
-		.notisec2 h2{
-			font-family:'Open Sans Condensed', sans-serif;
-			
-			
-		}
-		 /*Estilos Base*/ 
-	.contenedor-img2 {
-		width: 100%;
-		height: 70%;
-		float: left;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-		cursor: default;
-		background: #fff;
-		border-style: solid;
-		border-color: #008891;
-		border-width: 13px;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-		margin-left: 2%;
-		margin-right: 2%;
-		margin-bottom: 4%;
-		margin-top: 4%;
-		
-		}
-		.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
-			width: 300px;
-			height: 200px;
-			position: absolute;
-			overflow: hidden;
-			top: 0;
-			left: 0
-		}
-		.contenedor-img2 img {
-			display: block;
-			position: relative;
-			width:100%;
-			height:100%;
-		   
-		}
-		.contenedor-img2 h2 {
-			
-			color: #fff;
-			text-align: center;
-			position: relative;
-			font-size: 25px;
-			border-bottom: 5px solid #008891;
-			border-right: none;
-			border-left: none;
-			padding: 10px;
-			background: #006bbd;
-			margin: 5% 0 0 0;
-		}
-		.contenedor-img2 p {    
-			font-size: 18px;
-			position: relative;
-			color: #fff;
-			padding: 0px 20px 10px;
-			text-align: center;
-			margin:5%;
-			margin-bottom:5%;
-		}
-		.contenedor-img2 a.link {
-			display: inline-block;
-			padding: 7px 14px;
-			background: #80c8ee;
-			text-transform: uppercase;
-			width: 50%;
-			text-decoration: none;
-			border: none;
-			border-bottom: 5px solid #008891;
-			color: black;
-			font-size: 30px;
-			font-family: 'Open Sans Condensed', sans-serif;
-			box-shadow: 0 0 25px #000;
-		}
-			.contenedor-img2 a.link:hover {
-				box-shadow: 0 0 5px ;
-				background-color:white;
-				color:black;
-			}
-			
-
-		
-
-
-		/*Ejemplo 3*/
-		.ejemplo-3 img {
-			transition: all 0.4s ease-in-out; 
-		}
-		.ejemplo-3 .mascara2 { 
-			background-color:#023859;
-			transform: translateX(-300px);
-			opacity: 1;
-			transition: all 0.4s ease-in-out; 
-		}
-		.ejemplo-3 h2.nose{
-			background: #80c8ee;
-			color: black;
-			box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
-			border-bottom: 5px solid #E8FFC1;
-		}
-		.ejemplo-3 p{
-			color: fff;   
-		}
-		.ejemplo-3:hover .mascara2 { 
-			transform: translateX(0px);
-			
-			height:100%;
-		}						
-		.ejemplo-3:hover img { 
-			transform: translateX(300px);	
-		}
-		
-
-		.contenedor-img2 .mascara2 .icon{
-			margin:10%;
-		}
-		.contenedor-img2 .mascara2 .icon i{
-			display: inline-block;
-			width: 40px;
-			height:40px ;
-			margin:5%;
-			padding: 2px;
-			box-shadow: 0 0 1px #000;
-			font-size: 35px;
-			background: #80c8ee;
-			color:black;
-		}
-		.contenedor-img2 .mascara2 .icon #edi:hover{
-			background: orange;
-		}
-		.contenedor-img2 .mascara2 .icon #bas:hover{
-			background: red;
-			}		
-	/*Segunda caja OFF*/
-
-	/*Tercera Cjaaaaaaaaaa      ON    */
-	.notisec3{
-		width:65%;
-		float:left;
-		display:inline-block;
-		margin-left:2%;
-		font-size:30px;
-		font-family: 'Open Sans', sans-serif;
-		font-weight:300;
-		}
-		.notisec3 h2{
-			font-family:'Open Sans Condensed', sans-serif;
-			
-			
-		}
 			 /*Estilos Base*/ 
-		.contenedor-img3 {
-			width: 100%;
-			height: 70%;
-			float: left;
-			overflow: hidden;
-			position: relative;
-			text-align: center;
-			cursor: default;
-			background: #fff;
-			border-style: solid;
-			border-color: #87DFD6;
-			border-width: 13px;
-			border-left: none;
-			border-right: none;
-			border-top: none;
-			margin-left: 2%;
-			margin-right: 2%;
-			margin-bottom: 4%;
-			margin-top: 4%;
-			
-			}
-			.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
-				width: 300px;
-				height: 200px;
-				position: absolute;
+			 .contenedor-img {
+				width: 100%;
+				height: 70%;
+				float: left;
 				overflow: hidden;
-				top: 0;
-				left: 0
-			}
-			.contenedor-img3 img {
-				display: block;
 				position: relative;
-				width:100%;
-				height:100%;
-			   
-			}
-			.contenedor-img3 h2 {
-				color: black;
 				text-align: center;
-				position: relative;
-				font-size: 25px;
-				border-bottom: 5px solid #87DFD6;
-				padding: 10px;
-				background: #F9F8EB;
-				margin: 5% 0 0 0;
-				box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+				cursor: default;
+				background: #fff;
+				border-style:solid;
+				border-color:#023859;
+				border-width:13px;
+				border-left:none;
+				border-right:none;
+				border-top:none;
+				margin-left:2%;
+				margin-right:2%;
+				margin-bottom:4%;
+				margin-top:4%;
+				
+				}
+				.contenedor-img .mascara,.contenedor-img .contenido {
+					width: 300px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					padding: 10px;
+					background: #006bbd;
+					margin: 5% 0 0 0
+				}
+				.contenedor-img p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+					padding: 10px 20px 10px;
+					text-align: center;
+					margin:5%;
+					margin-bottom:3%;
+				}
+				.contenedor-img a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #006bbd;
+					color: #fff;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 1px #000;
+				}
+					.contenedor-img a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara { 
+					background-color: #023859;
+					transform: translateX(-300px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2{
+					background: #80c8ee;
+					color: fff;
+					box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+	
+				/*SEGunda Cjaaaaaaaaaa*/
+		.notisec2{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
 			}
-			.contenedor-img3 p {    
-				font-size: 18px;
+			.notisec2 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
+			}
+				 /*Estilos Base*/ 
+			.contenedor-img2 {
+				width: 100%;
+				height: 70%;
+				float: left;
+				overflow: hidden;
 				position: relative;
-				color: #fff;
-				padding: 0px 10px 10px;
 				text-align: center;
-				margin:5%;
-				margin-bottom:5%;
-			}
-			.contenedor-img3 a.link {
-				display: inline-block;
-				padding: 7px 14px;
-				background: #F9F8EB;
-				text-transform: uppercase;
-				width: 50%;
-				text-decoration: none;
-				border: none;
-				border-bottom: 5px solid #87DFD6;
-				color: black;
-				font-size: 30px;
-				font-family: 'Open Sans Condensed', sans-serif;
-				box-shadow: 0 0 25px #000;
-			}
-				.contenedor-img3 a.link:hover {
-					box-shadow: 0 0 5px ;
-					background-color:white;
-					color:black;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #008891;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img2 .mascara2,.contenedor-img2 .contenido {
+					width: 300px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img2 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img2 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					border-bottom: 5px solid #008891;
+					border-right: none;
+					border-left: none;
+					padding: 10px;
+					background: #006bbd;
+					margin: 5% 0 0 0;
+				}
+				.contenedor-img2 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+					padding: 0px 20px 10px;
+					text-align: center;
+					margin:5%;
+					margin-bottom:5%;
+				}
+				.contenedor-img2 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #008891;
+					color: black;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img2 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara2 { 
+					background-color:#023859;
+					transform: translateX(-300px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+					border-bottom: 5px solid #E8FFC1;
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara2 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
 				}
 				
-
-			
-
-
-			/*Ejemplo 3*/
-			.ejemplo-3 img {
-				transition: all 0.4s ease-in-out; 
-			}
-			.ejemplo-3 .mascara3 { 
-				background-color:#33425B;
-				transform: translateX(-300px);
-				opacity: 1;
-				transition: all 0.4s ease-in-out; 
-			}
-			.ejemplo-3 h2.nose3{
-				background: #80c8ee;
-				color: black;
-				box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
-			}
-			
-			.ejemplo-3 p{
-				color: fff;   
-			}
-			.ejemplo-3:hover .mascara3 { 
-				transform: translateX(0px);
+	
+				.contenedor-img2 .mascara2 .icon{
+					margin:10%;
+				}
+				.contenedor-img2 .mascara2 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background: #80c8ee;
+					color:black;
+				}
+				.contenedor-img2 .mascara2 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img2 .mascara2 .icon #bas:hover{
+					background: red;
+				}		
+		/*Segunda caja OFF*/
+	
+			/*Tercera Cjaaaaaaaaaa      ON    */
+			.notisec3{
+				width:65%;
+				float:left;
+				display:inline-block;
+				margin-left:2%;
+				font-size:30px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:300;
+				}
+				.notisec3 h2{
+					font-family:'Open Sans Condensed', sans-serif;
+					
+					
+				}
+					 /*Estilos Base*/ 
+				.contenedor-img3 {
+					width: 100%;
+					height: 70%;
+					float: left;
+					overflow: hidden;
+					position: relative;
+					text-align: center;
+					cursor: default;
+					background: #fff;
+					border-style: solid;
+					border-color: #87DFD6;
+					border-width: 13px;
+					border-left: none;
+					border-right: none;
+					border-top: none;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-bottom: 4%;
+					margin-top: 4%;
+					
+					}
+					.contenedor-img3 .mascara3,.contenedor-img3 .contenido {
+						width: 300px;
+						height: 200px;
+						position: absolute;
+						overflow: hidden;
+						top: 0;
+						left: 0
+					}
+					.contenedor-img3 img {
+						display: block;
+						position: relative;
+						width:100%;
+						height:100%;
+					   
+					}
+					.contenedor-img3 h2 {
+						color: black;
+						text-align: center;
+						position: relative;
+						font-size: 30px;
+						border-bottom: 5px solid #87DFD6;
+						padding: 10px;
+						background: #F9F8EB;
+						margin: 5% 0 0 0;
+						box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+					}
+					.contenedor-img3 p {    
+						font-size: 20px;
+						position: relative;
+						color: #fff;
+						padding: 0px 20px 10px;
+						text-align: center;
+						margin:5%;
+						margin-bottom:5%;
+					}
+					.contenedor-img3 a.link {
+						display: inline-block;
+						padding: 7px 14px;
+						background: #F9F8EB;
+						text-transform: uppercase;
+						width: 50%;
+						text-decoration: none;
+						border: none;
+						border-bottom: 5px solid #87DFD6;
+						color: black;
+						font-size: 30px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						box-shadow: 0 0 25px #000;
+					}
+						.contenedor-img3 a.link:hover {
+							box-shadow: 0 0 5px ;
+							background-color:white;
+							color:black;
+						}
+						
+		
+					
+		
+		
+					/*Ejemplo 3*/
+					.ejemplo-3 img {
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 .mascara3 { 
+						background-color:#33425B;
+						transform: translateX(-300px);
+						opacity: 1;
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 h2.nose3{
+						background: #80c8ee;
+						color: black;
+						box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+					}
+					
+					.ejemplo-3 p{
+						color: fff;   
+					}
+					.ejemplo-3:hover .mascara3 { 
+						transform: translateX(0px);
+						
+						height:100%;
+					}						
+					.ejemplo-3:hover img { 
+						transform: translateX(300px);	
+					}
+					
+		
+					.contenedor-img3 .mascara3 .icon{
+						margin:10%;
+					}
+					.contenedor-img3 .mascara3 .icon i{
+						display: inline-block;
+						width: 40px;
+						height:40px ;
+						margin:5%;
+						padding: 2px;
+						box-shadow: 0 0 1px #000;
+						font-size: 35px;
+						background:#87DFD6;
+						color:black;
+					}
+					.contenedor-img3 .mascara3 .icon #edi:hover{
+						background: orange;
+					}
+					.contenedor-img3 .mascara3 .icon #bas:hover{
+						background: red;
+					}		
+			/*Tercera caja OFF*/
+			 /*Estilos Base*/ 
+			 .contenedor-img7 {
+				width: 45%;
+					display: inline-block;
+				height: 350px;
 				
-				height:100%;
-			}						
-			.ejemplo-3:hover img { 
-				transform: translateX(300px);	
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style:solid;
+				border-color:#023859;
+				border-width:13px;
+				border-left:none;
+				border-right:none;
+				border-top:none;
+				margin-left:2%;
+				margin-right:2%;
+				margin-bottom:4%;
+				margin-top:4%;
+				
+				}
+				.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
+					width: 300px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img7 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img7 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 25px;
+					padding: 10px;
+					background: #006bbd;
+					margin: 10px 0 0 0
+				}
+				.contenedor-img7 p {    
+					font-size: 16px;
+					position: relative;
+					color: #fff;
+		
+					text-align: center;
+					margin:4%;
+					
+				}
+				.contenedor-img7 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #006bbd;
+					color: #fff;
+					font-size: 25px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 1px #000;
+				}
+					.contenedor-img7 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara7 { 
+					background-color: #023859;
+					transform: translateX(-300px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2{
+					background: #80c8ee;
+					color: fff;
+					box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara7 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+	
+				/*SEGunda Cjaaaaaaaaaa*/
+		.notisec2{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
 			}
-			
-
-			.contenedor-img3 .mascara3 .icon{
-				margin:10%;
+			.notisec2 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
 			}
-			.contenedor-img3 .mascara3 .icon i{
-				display: inline-block;
-				width: 40px;
-				height:40px ;
-				margin:5%;
-				padding: 2px;
-				box-shadow: 0 0 1px #000;
-				font-size: 35px;
-				background:#87DFD6;
-				color:black;
-			}
-			.contenedor-img3 .mascara3 .icon #edi:hover{
-				background: orange;
-			}
-			.contenedor-img3 .mascara3 .icon #bas:hover{
-				background: red;
-			}		
-	/*Tercera caja OFF*/
+				 /*Estilos Base*/ 
+			.contenedor-img8 {
+				width: 45%;
+					display: inline-block;
+				height: 350px;
+				float: left;
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #008891;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+					width: 300px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img8 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img8 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 25px;
+					border-bottom: 5px solid #008891;
+					border-right: none;
+					border-left: none;
+					padding: 10px;
+					background: #006bbd;
+					margin: 10px 0 0 0;
+				}
+				.contenedor-img8 p {    
+					font-size: 16px;
+					position: relative;
+					color: #fff;
+					
+					text-align: center;
+					margin:4%;
+					
+				}
+				.contenedor-img8 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #008891;
+					color: black;
+					font-size: 25px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img8 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara8 { 
+					background-color:#023859;
+					transform: translateX(-300px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+					border-bottom: 5px solid #E8FFC1;
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara8 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+				
+	
+				.contenedor-img8 .mascara8 .icon{
+					margin:10%;
+				}
+				.contenedor-img8 .mascara8 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background: #80c8ee;
+					color:black;
+				}
+				.contenedor-img8 .mascara8 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img82 .mascara8 .icon #bas:hover{
+					background: red;
+				}		
+		/*Segunda caja OFF*/
+	
+			/*Tercera Cjaaaaaaaaaa      ON    */
+			.notisec3{
+				width:65%;
+				float:left;
+				display:inline-block;
+				margin-left:2%;
+				font-size:30px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:300;
+				}
+				.notisec3 h2{
+					font-family:'Open Sans Condensed', sans-serif;
+					
+					
+				}
+					 /*Estilos Base*/ 
+				.contenedor-img9 {
+					width: 45%;
+					display: inline-block;
+					height: 350px;
+				
+					overflow: hidden;
+					position: relative;
+					text-align: center;
+					cursor: default;
+					background: #fff;
+					border-style: solid;
+					border-color: #87DFD6;
+					border-width: 13px;
+					border-left: none;
+					border-right: none;
+					border-top: none;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-bottom: 4%;
+					margin-top: 4%;
+					
+					}
+					.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+						width: 300px;
+						height: 200px;
+						position: absolute;
+						overflow: hidden;
+						top: 0;
+						left: 0
+					}
+					.contenedor-img9 img {
+						display: block;
+						position: relative;
+						width:100%;
+						height:100%;
+					   
+					}
+					.contenedor-img9 h2 {
+						color: black;
+						text-align: center;
+						position: relative;
+						font-size: 25px;
+						border-bottom: 5px solid #87DFD6;
+						padding: 10px;
+						background: #F9F8EB;
+						margin: 10px 0 0 0;
+						box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+					}
+					.contenedor-img9 p {    
+						font-size: 16px;
+						position: relative;
+						color: #fff;
+						
+						text-align: center;
+						margin:4%;
+						
+					}
+					.contenedor-img9 a.link {
+						display: inline-block;
+						padding: 7px 14px;
+						background: #F9F8EB;
+						text-transform: uppercase;
+						width: 50%;
+						text-decoration: none;
+						border: none;
+						border-bottom: 5px solid #87DFD6;
+						color: black;
+						font-size: 25px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						box-shadow: 0 0 25px #000;
+					}
+						.contenedor-img9 a.link:hover {
+							box-shadow: 0 0 5px ;
+							background-color:white;
+							color:black;
+						}
+						
+		
+					
+		
+		
+					/*Ejemplo 3*/
+					.ejemplo-3 img {
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 .mascara9 { 
+						background-color:#33425B;
+						transform: translateX(-300px);
+						opacity: 1;
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 h2.nose3{
+						background: #80c8ee;
+						color: black;
+						box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+					}
+					
+					.ejemplo-3 p{
+						color: fff;   
+					}
+					.ejemplo-3:hover .mascara9 { 
+						transform: translateX(0px);
+						
+						height:100%;
+					}						
+					.ejemplo-3:hover img { 
+						transform: translateX(300px);	
+					}
+					
+		
+					.contenedor-img9 .mascara9 .icon{
+						margin:1%;
+					}
+					.contenedor-img9 .mascara9 .icon i{
+						display: inline-block;
+						width: 40px;
+						height:40px ;
+						margin:5%;
+						padding: 2px;
+						box-shadow: 0 0 1px #000;
+						font-size: 35px;
+						background:#87DFD6;
+						color:black;
+					}
+					.contenedor-img9 .mascara9 .icon #edi:hover{
+						background: orange;
+					}
+					.contenedor-img9 .mascara9 .icon #bas:hover{
+						background: red;
+					}		
+			/*Tercera caja OFF*/
 	
 	.cajafija{
 	height: auto;
@@ -14091,6 +16535,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 15%;
+    margin-bottom: 15%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -14270,22 +16716,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width:5%;
-		height:5%;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -14315,7 +16761,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -14399,8 +16845,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-top: 15%;
+    			margin-bottom: 15%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -14654,8 +17100,8 @@
 			
 			
 		}
-			 /*Estilos Base*/ 
-		.contenedor-img {
+		 /*Estilos Base*/ 
+		 .contenedor-img {
 			width: 100%;
 			height: 70%;
 			float: left;
@@ -14699,7 +17145,7 @@
 				font-size: 30px;
 				padding: 10px;
 				background: #006bbd;
-				margin: 5% 0 0 0
+				margin: 50px 0 0 0
 			}
 			.contenedor-img p {    
 				font-size: 20px;
@@ -14708,7 +17154,7 @@
 				padding: 10px 20px 10px;
 				text-align: center;
 				margin:5%;
-				margin-bottom:3%;
+				margin-bottom:15%;
 			}
 			.contenedor-img a.link {
 				display: inline-block;
@@ -14824,7 +17270,7 @@
 				border-left: none;
 				padding: 10px;
 				background: #006bbd;
-				margin: 5% 0 0 0;
+				margin: 50px 0 0 0;
 			}
 			.contenedor-img2 p {    
 				font-size: 20px;
@@ -14833,7 +17279,7 @@
 				padding: 0px 20px 10px;
 				text-align: center;
 				margin:5%;
-				margin-bottom:5%;
+				margin-bottom:15%;
 			}
 			.contenedor-img2 a.link {
 				display: inline-block;
@@ -14970,7 +17416,7 @@
 					border-bottom: 5px solid #87DFD6;
 					padding: 10px;
 					background: #F9F8EB;
-					margin: 5% 0 0 0;
+					margin: 50px 0 0 0;
 					box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
 				}
 				.contenedor-img3 p {    
@@ -14980,7 +17426,7 @@
 					padding: 0px 20px 10px;
 					text-align: center;
 					margin:5%;
-					margin-bottom:5%;
+					margin-bottom:15%;
 				}
 				.contenedor-img3 a.link {
 					display: inline-block;
@@ -15056,6 +17502,411 @@
 					background: red;
 				}		
 		/*Tercera caja OFF*/
+			 /*Estilos Base*/ 
+			 .contenedor-img7 {
+				width: 45%;
+					display: inline-block;
+				height: 400px;
+				
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style:solid;
+				border-color:#023859;
+				border-width:13px;
+				border-left:none;
+				border-right:none;
+				border-top:none;
+				margin-left:2%;
+				margin-right:2%;
+				margin-bottom:4%;
+				margin-top:4%;
+				
+				}
+				.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img7 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img7 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					padding: 10px;
+					background: #006bbd;
+					margin: 10px 0 0 0
+				}
+				.contenedor-img7 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+		
+					text-align: center;
+					margin:4%;
+					
+				}
+				.contenedor-img7 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #006bbd;
+					color: #fff;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 1px #000;
+				}
+					.contenedor-img7 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara7 { 
+					background-color: #023859;
+					transform: translateX(-400px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2{
+					background: #80c8ee;
+					color: fff;
+					box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara7 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+	
+				/*SEGunda Cjaaaaaaaaaa*/
+		.notisec2{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
+			}
+			.notisec2 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
+			}
+				 /*Estilos Base*/ 
+			.contenedor-img8 {
+				width: 45%;
+					display: inline-block;
+				height: 400px;
+				float: left;
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #008891;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img8 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img8 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					border-bottom: 5px solid #008891;
+					border-right: none;
+					border-left: none;
+					padding: 10px;
+					background: #006bbd;
+					margin: 10px 0 0 0;
+				}
+				.contenedor-img8 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+					
+					text-align: center;
+					margin:4%;
+					
+				}
+				.contenedor-img8 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #008891;
+					color: black;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img8 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara8 { 
+					background-color:#023859;
+					transform: translateX(-400px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+					border-bottom: 5px solid #E8FFC1;
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara8 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+				
+	
+				.contenedor-img8 .mascara8 .icon{
+					margin:10%;
+				}
+				.contenedor-img8 .mascara8 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background: #80c8ee;
+					color:black;
+				}
+				.contenedor-img8 .mascara8 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img8 .mascara8 .icon #bas:hover{
+					background: red;
+				}		
+		/*Segunda caja OFF*/
+	
+			/*Tercera Cjaaaaaaaaaa      ON    */
+			.notisec3{
+				width:65%;
+				float:left;
+				display:inline-block;
+				margin-left:2%;
+				font-size:30px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:300;
+				}
+				.notisec3 h2{
+					font-family:'Open Sans Condensed', sans-serif;
+					
+					
+				}
+					 /*Estilos Base*/ 
+				.contenedor-img9 {
+					width: 45%;
+					display: inline-block;
+					height: 400px;
+				
+					overflow: hidden;
+					position: relative;
+					text-align: center;
+					cursor: default;
+					background: #fff;
+					border-style: solid;
+					border-color: #87DFD6;
+					border-width: 13px;
+					border-left: none;
+					border-right: none;
+					border-top: none;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-bottom: 4%;
+					margin-top: 4%;
+					
+					}
+					.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+						width: 400px;
+						height: 200px;
+						position: absolute;
+						overflow: hidden;
+						top: 0;
+						left: 0
+					}
+					.contenedor-img9 img {
+						display: block;
+						position: relative;
+						width:100%;
+						height:100%;
+					   
+					}
+					.contenedor-img9 h2 {
+						color: black;
+						text-align: center;
+						position: relative;
+						font-size: 30px;
+						border-bottom: 5px solid #87DFD6;
+						padding: 10px;
+						background: #F9F8EB;
+						margin: 10px 0 0 0;
+						box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+					}
+					.contenedor-img9 p {    
+						font-size: 20px;
+						position: relative;
+						color: #fff;
+						
+						text-align: center;
+						margin:4%;
+						
+					}
+					.contenedor-img9 a.link {
+						display: inline-block;
+						padding: 7px 14px;
+						background: #F9F8EB;
+						text-transform: uppercase;
+						width: 50%;
+						text-decoration: none;
+						border: none;
+						border-bottom: 5px solid #87DFD6;
+						color: black;
+						font-size: 30px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						box-shadow: 0 0 25px #000;
+					}
+						.contenedor-img9 a.link:hover {
+							box-shadow: 0 0 5px ;
+							background-color:white;
+							color:black;
+						}
+						
+		
+					
+		
+		
+					/*Ejemplo 3*/
+					.ejemplo-3 img {
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 .mascara9 { 
+						background-color:#33425B;
+						transform: translateX(-400px);
+						opacity: 1;
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 h2.nose3{
+						background: #80c8ee;
+						color: black;
+						box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+					}
+					
+					.ejemplo-3 p{
+						color: fff;   
+					}
+					.ejemplo-3:hover .mascara9 { 
+						transform: translateX(0px);
+						
+						height:100%;
+					}						
+					.ejemplo-3:hover img { 
+						transform: translateX(300px);	
+					}
+					
+		
+					.contenedor-img9 .mascara9 .icon{
+						margin:1%;
+					}
+					.contenedor-img9 .mascara9 .icon i{
+						display: inline-block;
+						width: 40px;
+						height:40px ;
+						margin:5%;
+						padding: 2px;
+						box-shadow: 0 0 1px #000;
+						font-size: 35px;
+						background:#87DFD6;
+						color:black;
+					}
+					.contenedor-img9 .mascara9 .icon #edi:hover{
+						background: orange;
+					}
+					.contenedor-img9 .mascara9 .icon #bas:hover{
+						background: red;
+					}		
+			/*Tercera caja OFF*/
 	
 	.cajafija{
 	height: auto;
@@ -16333,6 +19184,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 10%;
+    margin-bottom: 10%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -16512,22 +19365,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width:5%;
-		height:5%;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -16557,7 +19410,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -16641,8 +19494,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-top: 8%;
+    margin-bottom: 8%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -16897,7 +19750,7 @@
 			
 			
 		}
-			 /*Estilos Base*/ 
+		/*Estilos Base*/ 
 		.contenedor-img {
 			width: 100%;
 			height: 70%;
@@ -17299,6 +20152,411 @@
 					background: red;
 				}		
 		/*Tercera caja OFF*/
+			  /*Estilos Base*/ 
+			.contenedor-img7 {
+				width: 45%;
+					display: inline-block;
+				height: 400px;
+				
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style:solid;
+				border-color:#023859;
+				border-width:13px;
+				border-left:none;
+				border-right:none;
+				border-top:none;
+				margin-left:2%;
+				margin-right:2%;
+				margin-bottom:4%;
+				margin-top:4%;
+				
+				}
+				.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img7 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img7 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					padding: 10px;
+					background: #006bbd;
+					margin: 20px 0 0 0
+				}
+				.contenedor-img7 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+				
+					text-align: center;
+					margin:5%;
+					margin-bottom:6%;
+				}
+				.contenedor-img7 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #006bbd;
+					color: #fff;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 1px #000;
+				}
+					.contenedor-img7 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara7 { 
+					background-color: #023859;
+					transform: translateX(-500px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2{
+					background: #80c8ee;
+					color: fff;
+					box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara7 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+	
+				/*SEGunda Cjaaaaaaaaaa*/
+		.notisec2{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
+			}
+			.notisec2 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
+			}
+				 /*Estilos Base*/ 
+			.contenedor-img8 {
+				width: 45%;
+					display: inline-block;
+				height: 400px;
+				float: left;
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #008891;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img8 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img8 h2 {
+					
+					color: #fff;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					border-bottom: 5px solid #008891;
+					border-right: none;
+					border-left: none;
+					padding: 10px;
+					background: #006bbd;
+					margin: 20px 0 0 0;
+				}
+				.contenedor-img8 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+				
+					text-align: center;
+					margin:5%;
+					margin-bottom:5%;
+				}
+				.contenedor-img8 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #80c8ee;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #008891;
+					color: black;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img8 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara8 { 
+					background-color:#023859;
+					transform: translateX(-400px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+					border-bottom: 5px solid #E8FFC1;
+				}
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara8{ 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+				
+	
+				.contenedor-img8 .mascara8 .icon{
+					margin:1%;
+				}
+				.contenedor-img8 .mascara8 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background: #80c8ee;
+					color:black;
+				}
+				.contenedor-img8 .mascara8 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img8 .mascara8 .icon #bas:hover{
+					background: red;
+				}		
+		/*Segunda caja OFF*/
+	
+			/*Tercera Cjaaaaaaaaaa      ON    */
+			.notisec3{
+				width:65%;
+				float:left;
+				display:inline-block;
+				margin-left:2%;
+				font-size:30px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:300;
+				}
+				.notisec3 h2{
+					font-family:'Open Sans Condensed', sans-serif;
+					
+					
+				}
+					 /*Estilos Base*/ 
+				.contenedor-img9 {
+					width: 45%;
+					display: inline-block;
+					height: 400px;
+				
+					overflow: hidden;
+					position: relative;
+					text-align: center;
+					cursor: default;
+					background: #fff;
+					border-style: solid;
+					border-color: #87DFD6;
+					border-width: 13px;
+					border-left: none;
+					border-right: none;
+					border-top: none;
+					margin-left: 2%;
+					margin-right: 2%;
+					margin-bottom: 4%;
+					margin-top: 4%;
+					
+					}
+					.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+						width: 400px;
+						height: 200px;
+						position: absolute;
+						overflow: hidden;
+						top: 0;
+						left: 0
+					}
+					.contenedor-img9 img {
+						display: block;
+						position: relative;
+						width:100%;
+						height:100%;
+					   
+					}
+					.contenedor-img9 h2 {
+						color: black;
+						text-align: center;
+						position: relative;
+						font-size: 30px;
+						border-bottom: 5px solid #87DFD6;
+						padding: 10px;
+						background: #F9F8EB;
+						margin: 20px 0 0 0;
+						box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+					}
+					.contenedor-img9 p {    
+						font-size: 20px;
+						position: relative;
+						color: #fff;
+						
+						text-align: center;
+						margin:5%;
+						margin-bottom:6%;
+					}
+					.contenedor-img9 a.link {
+						display: inline-block;
+						padding: 7px 14px;
+						background: #F9F8EB;
+						text-transform: uppercase;
+						width: 50%;
+						text-decoration: none;
+						border: none;
+						border-bottom: 5px solid #87DFD6;
+						color: black;
+						font-size: 30px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						box-shadow: 0 0 25px #000;
+					}
+						.contenedor-img9 a.link:hover {
+							box-shadow: 0 0 5px ;
+							background-color:white;
+							color:black;
+						}
+						
+		
+					
+		
+		
+					/*Ejemplo 3*/
+					.ejemplo-3 img {
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 .mascara9{ 
+						background-color:#33425B;
+						transform: translateX(-400px);
+						opacity: 1;
+						transition: all 0.4s ease-in-out; 
+					}
+					.ejemplo-3 h2.nose9{
+						background: #80c8ee;
+						color: black;
+						box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+					}
+					
+					.ejemplo-3 p{
+						color: fff;   
+					}
+					.ejemplo-3:hover .mascara9 { 
+						transform: translateX(0px);
+						
+						height:100%;
+					}						
+					.ejemplo-3:hover img { 
+						transform: translateX(300px);	
+					}
+					
+		
+					.contenedor-img9 .mascara9 .icon{
+						margin:1%;
+					}
+					.contenedor-img9 .mascara9 .icon i{
+						display: inline-block;
+						width: 40px;
+						height:40px ;
+						margin:5%;
+						padding: 2px;
+						box-shadow: 0 0 1px #000;
+						font-size: 35px;
+						background:#87DFD6;
+						color:black;
+					}
+					.contenedor-img9 .mascara9 .icon #edi:hover{
+						background: orange;
+					}
+					.contenedor-img9 .mascara9 .icon #bas:hover{
+						background: red;
+					}		
+			/*Tercera caja OFF*/
 	
 	.cajafija{
 	height: auto;
@@ -18632,6 +21890,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 8%;
+    	margin-bottom: 8%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -18786,10 +22046,10 @@
 		background: #006bbd;
 		color:whitesmoke;
 	}
-	.contenedor-img .mascara .icon{
+	.contenedor-img7 .mascara7 .icon{
 		margin:10%;
 	}
-	.contenedor-img .mascara .icon i{
+	.contenedor-img7 .mascara7 .icon i{
 		display: inline-block;
 		width: 40px;
 		height:40px ;
@@ -18800,10 +22060,10 @@
 		background: #80c8ee;
 		color:black;
 	}
-	.contenedor-img .mascara .icon #edi:hover{
+	.contenedor-img7 .mascara7 .icon #edi:hover{
 		background: orange;
 	}
-	.contenedor-img .mascara .icon #bas:hover{
+	.contenedor-img7 .mascara7 .icon #bas:hover{
 		background: red;
 	}
 		.rapido{
@@ -18811,22 +22071,22 @@
 				width: 90%;
 		}
 		.nmros{
-		text-align: center;
-		display:inline-block;
-		background: #006bbd;
-		width:5%;
-		height:5%;
-		margin: 1px;
-		margin-bottom: 25px;
-		border: 1px solid black;
-	}
-	.nmros a{
-		padding: 7px 14px;
-		display: block;
-		color:white;
-		width: 100%;
-		height: 100%;
-	}
+			text-align: center;
+			display:inline-block;
+			background: #006bbd;
+			width:50px;
+			height:50px;
+			margin: 1px;
+			margin-bottom: 25px;
+			border: 1px solid black;
+		}
+		.nmros a{
+			padding: 14px 14px;
+			display: block;
+			color:white;
+			width: 100%;
+			height: 100%;
+		}
 	.nmros a:hover{
 		background: #fff;
 		color:black;
@@ -18856,7 +22116,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -18940,8 +22200,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-top: 8%;
+				margin-bottom: 8%;
 				border-right: none;
 				border-left: none;
 				position:relative;
@@ -19207,7 +22467,7 @@
 			
 			
 		}
-			 /*Estilos Base*/ 
+		/*Estilos Base*/ 
 		.contenedor-img {
 			width: 100%;
 			height: 70%;
@@ -19606,6 +22866,411 @@
 					background: orange;
 				}
 				.contenedor-img3 .mascara3 .icon #bas:hover{
+					background: red;
+				}		
+		/*Tercera caja OFF*/
+			/*Estilos Base*/ 
+		.contenedor-img7 {
+			width: 45%;
+				display: inline-block;
+			height: 450px;
+			
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style:solid;
+			border-color:#023859;
+			border-width:13px;
+			border-left:none;
+			border-right:none;
+			border-top:none;
+			margin-left:2%;
+			margin-right:2%;
+			margin-bottom:4%;
+			margin-top:4%;
+			
+			}
+			.contenedor-img7 .mascara7,.contenedor-img .contenido {
+				width: 500px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img7 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			   
+			}
+			.contenedor-img7 h2 {
+				
+				color: #fff;
+				text-align: center;
+				position: relative;
+				font-size: 30px;
+				padding: 10px;
+				background: #006bbd;
+				margin: 20px 0 0 0
+			}
+			.contenedor-img7 p {    
+				font-size: 20px;
+				position: relative;
+				color: #fff;
+			
+				text-align: center;
+				margin:5%;
+				margin-bottom:6%;
+			}
+			.contenedor-img7 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #80c8ee;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #006bbd;
+				color: #fff;
+				font-size: 30px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 1px #000;
+			}
+				.contenedor-img7 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara7 { 
+				background-color: #023859;
+				transform: translateX(-500px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2{
+				background: #80c8ee;
+				color: fff;
+				box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+			}
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara7 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+
+			/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			 /*Estilos Base*/ 
+		.contenedor-img8 {
+			width: 45%;
+				display: inline-block;
+			height: 450px;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #008891;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+				width: 400px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img8 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			   
+			}
+			.contenedor-img8 h2 {
+				
+				color: #fff;
+				text-align: center;
+				position: relative;
+				font-size: 30px;
+				border-bottom: 5px solid #008891;
+				border-right: none;
+				border-left: none;
+				padding: 10px;
+				background: #006bbd;
+				margin: 20px 0 0 0;
+			}
+			.contenedor-img8 p {    
+				font-size: 20px;
+				position: relative;
+				color: #fff;
+				
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img8 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #80c8ee;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #008891;
+				color: black;
+				font-size: 30px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img8 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara8 { 
+				background-color:#023859;
+				transform: translateX(-400px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose3{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+				border-bottom: 5px solid #E8FFC1;
+			}
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara8 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img8 .mascara8 .icon{
+				margin:10%;
+			}
+			.contenedor-img8 .mascara8 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background: #80c8ee;
+				color:black;
+			}
+			.contenedor-img8 .mascara8 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img8 .mascara8 .icon #bas:hover{
+				background: red;
+			}		
+	/*Segunda caja OFF*/
+
+		/*Tercera Cjaaaaaaaaaa      ON    */
+		.notisec3{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
+			}
+			.notisec3 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
+			}
+				 /*Estilos Base*/ 
+			.contenedor-img9 {
+				width: 45%;
+				display: inline-block;
+				height: 450px;
+			
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #87DFD6;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img9 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img9 h2 {
+					color: black;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					border-bottom: 5px solid #87DFD6;
+					padding: 10px;
+					background: #F9F8EB;
+					margin: 20px 0 0 0;
+					box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+				}
+				.contenedor-img9 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+					
+					text-align: center;
+					margin:5%;
+					margin-bottom:6%;
+				}
+				.contenedor-img9 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #F9F8EB;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #87DFD6;
+					color: black;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img9 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara9 { 
+					background-color:#33425B;
+					transform: translateX(-400px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose9{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+				}
+				
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara9 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+				
+	
+				.contenedor-img9 .mascara9 .icon{
+					margin:1%;
+				}
+				.contenedor-img9 .mascara9 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background:#87DFD6;
+					color:black;
+				}
+				.contenedor-img9 .mascara9 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img9 .mascara9 .icon #bas:hover{
 					background: red;
 				}		
 		/*Tercera caja OFF*/
@@ -20955,6 +24620,8 @@
 	.vinculorelacionado{
 		width:100%;
 		height:25%;
+		margin-top: 8%;
+    margin-bottom: 8%;
 	}
 	.hist .icon{
 		margin-right: 5%;
@@ -21137,14 +24804,14 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width:5%;
-		height:5%;
+		width:50px;
+		height:50px;
 		margin: 1px;
 		margin-bottom: 25px;
 		border: 1px solid black;
 	}
 	.nmros a{
-		padding: 7px 14px;
+		padding: 14px 14px;
 		display: block;
 		color:white;
 		width: 100%;
@@ -21179,7 +24846,7 @@
 		text-align: center;
 		display:inline-block;
 		background: #006bbd;
-		width: 130px;
+		width: 160px;
 		height:30px;
 		margin: 1px;
 		border: 1px solid black;
@@ -21262,8 +24929,8 @@
 				border-color: #006bbd;
 				font-family: 'Roboto', sans-serif;
 				display: block;
-				margin-bottom: 5%;
-				margin-top: 5%;
+				margin-bottom: 8%;
+				margin-top: 8%;
 				border-right: none;
 				border-left: none;
 				color:white;
@@ -21529,8 +25196,8 @@
 			
 			
 		}
-			 /*Estilos Base*/ 
-		.contenedor-img {
+		 /*Estilos Base*/ 
+		 .contenedor-img {
 			width: 100%;
 			height: 70%;
 			float: left;
@@ -21928,6 +25595,412 @@
 					background: orange;
 				}
 				.contenedor-img3 .mascara3 .icon #bas:hover{
+					background: red;
+				}		
+		/*Tercera caja OFF*/
+
+			/*Estilos Base*/ 
+		.contenedor-img7 {
+			width: 45%;
+				display: inline-block;
+			height: 450px;
+			
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style:solid;
+			border-color:#023859;
+			border-width:13px;
+			border-left:none;
+			border-right:none;
+			border-top:none;
+			margin-left:2%;
+			margin-right:2%;
+			margin-bottom:4%;
+			margin-top:4%;
+			
+			}
+			.contenedor-img7 .mascara7,.contenedor-img7 .contenido {
+				width: 500px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img7 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			   
+			}
+			.contenedor-img7 h2 {
+				
+				color: #fff;
+				text-align: center;
+				position: relative;
+				font-size: 30px;
+				padding: 10px;
+				background: #006bbd;
+				margin: 20px 0 0 0
+			}
+			.contenedor-img7 p {    
+				font-size: 20px;
+				position: relative;
+				color: #fff;
+				
+				text-align: center;
+				margin:5%;
+				margin-bottom:6%;
+			}
+			.contenedor-img7 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #80c8ee;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #006bbd;
+				color: #fff;
+				font-size: 30px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 1px #000;
+			}
+				.contenedor-img7 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara7 { 
+				background-color: #023859;
+				transform: translateX(-500px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2{
+				background: #80c8ee;
+				color: fff;
+				box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+			}
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+
+			/*SEGunda Cjaaaaaaaaaa*/
+	.notisec2{
+		width:65%;
+		float:left;
+		display:inline-block;
+		margin-left:2%;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		}
+		.notisec2 h2{
+			font-family:'Open Sans Condensed', sans-serif;
+			
+			
+		}
+			 /*Estilos Base*/ 
+		.contenedor-img8 {
+			width: 45%;
+				display: inline-block;
+			height: 450px;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: default;
+			background: #fff;
+			border-style: solid;
+			border-color: #008891;
+			border-width: 13px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 4%;
+			margin-top: 4%;
+			
+			}
+			.contenedor-img8 .mascara8,.contenedor-img8 .contenido {
+				width: 400px;
+				height: 200px;
+				position: absolute;
+				overflow: hidden;
+				top: 0;
+				left: 0
+			}
+			.contenedor-img8 img {
+				display: block;
+				position: relative;
+				width:100%;
+				height:100%;
+			   
+			}
+			.contenedor-img8 h2 {
+				
+				color: #fff;
+				text-align: center;
+				position: relative;
+				font-size: 30px;
+				border-bottom: 5px solid #008891;
+				border-right: none;
+				border-left: none;
+				padding: 10px;
+				background: #006bbd;
+				margin: 20px 0 0 0;
+			}
+			.contenedor-img8 p {    
+				font-size: 20px;
+				position: relative;
+				color: #fff;
+			
+				text-align: center;
+				margin:5%;
+				margin-bottom:5%;
+			}
+			.contenedor-img8 a.link {
+				display: inline-block;
+				padding: 7px 14px;
+				background: #80c8ee;
+				text-transform: uppercase;
+				width: 50%;
+				text-decoration: none;
+				border: none;
+				border-bottom: 5px solid #008891;
+				color: black;
+				font-size: 30px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				box-shadow: 0 0 25px #000;
+			}
+				.contenedor-img8 a.link:hover {
+					box-shadow: 0 0 5px ;
+					background-color:white;
+					color:black;
+				}
+				
+
+			
+
+
+			/*Ejemplo 3*/
+			.ejemplo-3 img {
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 .mascara8 { 
+				background-color:#023859;
+				transform: translateX(-400px);
+				opacity: 1;
+				transition: all 0.4s ease-in-out; 
+			}
+			.ejemplo-3 h2.nose{
+				background: #80c8ee;
+				color: black;
+				box-shadow: 2px 34px 28px rgba(159, 141, 140, 0.5);
+				border-bottom: 5px solid #E8FFC1;
+			}
+			.ejemplo-3 p{
+				color: fff;   
+			}
+			.ejemplo-3:hover .mascara8 { 
+				transform: translateX(0px);
+				
+				height:100%;
+			}						
+			.ejemplo-3:hover img { 
+				transform: translateX(300px);	
+			}
+			
+
+			.contenedor-img8 .mascara8 .icon{
+				margin:10%;
+			}
+			.contenedor-img8 .mascara8 .icon i{
+				display: inline-block;
+				width: 40px;
+				height:40px ;
+				margin:5%;
+				padding: 2px;
+				box-shadow: 0 0 1px #000;
+				font-size: 35px;
+				background: #80c8ee;
+				color:black;
+			}
+			.contenedor-img8 .mascara8 .icon #edi:hover{
+				background: orange;
+			}
+			.contenedor-img8 .mascara8 .icon #bas:hover{
+				background: red;
+			}		
+	/*Segunda caja OFF*/
+
+		/*Tercera Cjaaaaaaaaaa      ON    */
+		.notisec3{
+			width:65%;
+			float:left;
+			display:inline-block;
+			margin-left:2%;
+			font-size:30px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight:300;
+			}
+			.notisec3 h2{
+				font-family:'Open Sans Condensed', sans-serif;
+				
+				
+			}
+				 /*Estilos Base*/ 
+			.contenedor-img9 {
+				width: 45%;
+				display: inline-block;
+				height: 450px;
+			
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				cursor: default;
+				background: #fff;
+				border-style: solid;
+				border-color: #87DFD6;
+				border-width: 13px;
+				border-left: none;
+				border-right: none;
+				border-top: none;
+				margin-left: 2%;
+				margin-right: 2%;
+				margin-bottom: 4%;
+				margin-top: 4%;
+				
+				}
+				.contenedor-img9 .mascara9,.contenedor-img9 .contenido {
+					width: 400px;
+					height: 200px;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0
+				}
+				.contenedor-img9 img {
+					display: block;
+					position: relative;
+					width:100%;
+					height:100%;
+				   
+				}
+				.contenedor-img9 h2 {
+					color: black;
+					text-align: center;
+					position: relative;
+					font-size: 30px;
+					border-bottom: 5px solid #87DFD6;
+					padding: 10px;
+					background: #F9F8EB;
+					margin: 20px 0 0 0;
+					box-shadow: 0px 19px 23px rgba(159, 141, 140, 0.5);
+				}
+				.contenedor-img9 p {    
+					font-size: 20px;
+					position: relative;
+					color: #fff;
+					
+					text-align: center;
+					margin:5%;
+					margin-bottom:6%;
+				}
+				.contenedor-img9 a.link {
+					display: inline-block;
+					padding: 7px 14px;
+					background: #F9F8EB;
+					text-transform: uppercase;
+					width: 50%;
+					text-decoration: none;
+					border: none;
+					border-bottom: 5px solid #87DFD6;
+					color: black;
+					font-size: 30px;
+					font-family: 'Open Sans Condensed', sans-serif;
+					box-shadow: 0 0 25px #000;
+				}
+					.contenedor-img9 a.link:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+					}
+					
+	
+				
+	
+	
+				/*Ejemplo 3*/
+				.ejemplo-3 img {
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 .mascara9 { 
+					background-color:#33425B;
+					transform: translateX(-400px);
+					opacity: 1;
+					transition: all 0.4s ease-in-out; 
+				}
+				.ejemplo-3 h2.nose3{
+					background: #80c8ee;
+					color: black;
+					box-shadow: 29px 8px 39px rgba(159, 141, 140, 0.5);
+				}
+				
+				.ejemplo-3 p{
+					color: fff;   
+				}
+				.ejemplo-3:hover .mascara9 { 
+					transform: translateX(0px);
+					
+					height:100%;
+				}						
+				.ejemplo-3:hover img { 
+					transform: translateX(300px);	
+				}
+				
+	
+				.contenedor-img9 .mascara9 .icon{
+					margin:1%;
+				}
+				.contenedor-img9 .mascara9 .icon i{
+					display: inline-block;
+					width: 40px;
+					height:40px ;
+					margin:5%;
+					padding: 2px;
+					box-shadow: 0 0 1px #000;
+					font-size: 35px;
+					background:#87DFD6;
+					color:black;
+				}
+				.contenedor-img9 .mascara9 .icon #edi:hover{
+					background: orange;
+				}
+				.contenedor-img9 .mascara9 .icon #bas:hover{
 					background: red;
 				}		
 		/*Tercera caja OFF*/

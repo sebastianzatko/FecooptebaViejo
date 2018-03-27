@@ -42,7 +42,7 @@
 	</head>
 	<body>
 	<?php if (login_check($mysqli) == true) : ?>
-		<section class="oja">
+	<section class="oja">
 			<span id="botonmenu" class="fa fa-arrow-right"></span>
             <nav class="barra">
                 <ul class="lista1">
@@ -51,7 +51,7 @@
                     <li class="item-sublista" menu="1"><a href="#"><i class="fa fa-plus-square"></i> Crear</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-plus-square"></i> Crear</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="nuevanoti.php"><i class="fa fa-newspaper-o"></i> Noticias</a></li>
                             <li><a href="crearasociado.php?cate=1"><i class="fa fa-user-plus"></i> Vinculo</a></li>
                             <li><a href="crearasociado.php?cate=2"><i class="fa fa-user-plus"></i> Coopteba</a></li>
@@ -63,11 +63,12 @@
                     <li class="item-sublista" menu="2"><a href="#"><i class="fa fa-edit"></i> Modificar</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-edit"></i> Modificar</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="modificarnoticia.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="modificarasociado.php"><i class="fa fa-user"></i> Vinculo</a></li>
                             <li><a href="modificarasociado.php"><i class="fa fa-user"></i> Coopteba</a></li>
                             <li><a href="modificardocumento.php"><i class="fa fa-file"></i> Documento</a></li>
+                            <li><a href="modificardocumento.php"><i class="fa fa-book"></i> Legislaciones</a></li>
 							<li><a href="modificarpublicacion.php"><i class="fa fa-align-left"></i> Publicacion</a></li>
 							<li><a href="modificarcomision.php"><i class="fa fa-sitemap"></i> Comision</a></li>
 							<li><a href="vinculosasociados.php"><i class="fa fa-users"></i> Publicar Entes</a></li>
@@ -76,7 +77,7 @@
 					<li class="item-sublista" menu="3"><a href="#"><i class="fa fa-th-large"></i> Secciones</a>
 						<ul class="sublista">
 							<li class="inicio"><i class="fa fa-th-large"></i> Secciones</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
 							<li><a href="contacto.php"><i class="fa fa-phone-square"></i> Contacto</a></li>
                             <li><a href="guardarobjetivos.php"><i class="fa fa-line-chart"></i> Objetivos</a></li>
                             <li><a href="historia.php"><i class="fa fa-archive"></i> Historia</a></li>
@@ -88,7 +89,7 @@
                     <li class="item-sublista" menu="4"><a href="#"><i class="fa fa-minus-square"></i> Eliminar</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-minus-square"></i> Eliminar</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="eliminarnoticia.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="eliminarasociados.php"><i class="fa fa-user-times"></i> Vinculo</a></li>
                             <li><a href="eliminarasociados.php"><i class="fa fa-user-times"></i> Coopteba</a></li>
@@ -102,7 +103,7 @@
                     <li class="item-sublista" menu="5"><a href="#"><i class="fa fa-sort"></i> Cambiar Relevancia</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-sort"></i> Cambiar Relevancia</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="noticiaprioridad.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="prioridadnoticiadestacada.php"><i class="fa fa-newspaper-o"></i> Noticia Destacada</a></li>
                             <li><a href="prioridadnoticiaslider.php"><i class="fa fa-newspaper-o"></i> Noticia Carrusel</a></li>
@@ -110,10 +111,13 @@
                             <li><a href="legislacionprioridad.php"><i class="fa fa-book"></i> Legislacion</a></li>
                         </ul>
                     </li>
+                   
+					<li menu="0"><a href="consultas.php"><i class="fa fa-wrench"></i> Consultas</a>
 					<li menu="0"><a href="logout.php"><i class="fa fa-times-circle"></i> Cerrar Sesion</a>
                 </ul>
             </nav>
         </section>
+		
 		
 		<header>
 		<div >

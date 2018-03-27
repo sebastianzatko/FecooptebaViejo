@@ -41,7 +41,7 @@
 	</head>
 	<body>
 	<?php if (login_check($mysqli) == true) : ?>
-		<section class="oja">
+	<section class="oja">
 			<span id="botonmenu" class="fa fa-arrow-right"></span>
             <nav class="barra">
                 <ul class="lista1">
@@ -50,7 +50,7 @@
                     <li class="item-sublista" menu="1"><a href="#"><i class="fa fa-plus-square"></i> Crear</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-plus-square"></i> Crear</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="nuevanoti.php"><i class="fa fa-newspaper-o"></i> Noticias</a></li>
                             <li><a href="crearasociado.php?cate=1"><i class="fa fa-user-plus"></i> Vinculo</a></li>
                             <li><a href="crearasociado.php?cate=2"><i class="fa fa-user-plus"></i> Coopteba</a></li>
@@ -62,11 +62,12 @@
                     <li class="item-sublista" menu="2"><a href="#"><i class="fa fa-edit"></i> Modificar</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-edit"></i> Modificar</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="modificarnoticia.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="modificarasociado.php"><i class="fa fa-user"></i> Vinculo</a></li>
                             <li><a href="modificarasociado.php"><i class="fa fa-user"></i> Coopteba</a></li>
                             <li><a href="modificardocumento.php"><i class="fa fa-file"></i> Documento</a></li>
+                            <li><a href="modificardocumento.php"><i class="fa fa-book"></i> Legislaciones</a></li>
 							<li><a href="modificarpublicacion.php"><i class="fa fa-align-left"></i> Publicacion</a></li>
 							<li><a href="modificarcomision.php"><i class="fa fa-sitemap"></i> Comision</a></li>
 							<li><a href="vinculosasociados.php"><i class="fa fa-users"></i> Publicar Entes</a></li>
@@ -75,7 +76,7 @@
 					<li class="item-sublista" menu="3"><a href="#"><i class="fa fa-th-large"></i> Secciones</a>
 						<ul class="sublista">
 							<li class="inicio"><i class="fa fa-th-large"></i> Secciones</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
 							<li><a href="contacto.php"><i class="fa fa-phone-square"></i> Contacto</a></li>
                             <li><a href="guardarobjetivos.php"><i class="fa fa-line-chart"></i> Objetivos</a></li>
                             <li><a href="historia.php"><i class="fa fa-archive"></i> Historia</a></li>
@@ -87,7 +88,7 @@
                     <li class="item-sublista" menu="4"><a href="#"><i class="fa fa-minus-square"></i> Eliminar</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-minus-square"></i> Eliminar</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="eliminarnoticia.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="eliminarasociados.php"><i class="fa fa-user-times"></i> Vinculo</a></li>
                             <li><a href="eliminarasociados.php"><i class="fa fa-user-times"></i> Coopteba</a></li>
@@ -101,7 +102,7 @@
                     <li class="item-sublista" menu="5"><a href="#"><i class="fa fa-sort"></i> Cambiar Relevancia</a>
                         <ul class="sublista">
                             <li class="inicio"><i class="fa fa-sort"></i> Cambiar Relevancia</li>
-                            <li class="atras">Back</li>
+                            <li class="atras">Volver</li>
                             <li><a href="noticiaprioridad.php"><i class="fa fa-newspaper-o"></i> Noticia</a></li>
                             <li><a href="prioridadnoticiadestacada.php"><i class="fa fa-newspaper-o"></i> Noticia Destacada</a></li>
                             <li><a href="prioridadnoticiaslider.php"><i class="fa fa-newspaper-o"></i> Noticia Carrusel</a></li>
@@ -109,10 +110,13 @@
                             <li><a href="legislacionprioridad.php"><i class="fa fa-book"></i> Legislacion</a></li>
                         </ul>
                     </li>
+                   
+					<li menu="0"><a href="consultas.php"><i class="fa fa-wrench"></i> Consultas</a>
 					<li menu="0"><a href="logout.php"><i class="fa fa-times-circle"></i> Cerrar Sesion</a>
                 </ul>
             </nav>
         </section>
+		
 		
 		<header>
 		<div >
@@ -139,17 +143,19 @@
 		<?php
 			require 'conection.php';
 			$id=$_GET['noticia'];
-			$sql = "SELECT id_noticia,titulo,texto,sinopsis,portada,destacada,actividad,slider,fecha FROM noticia WHERE id_noticia='$id'";
+			$sql = "SELECT id_noticia,titulo,texto,sinopsis,portada,destacada,actividad,slider,fecha,tamaño FROM noticia WHERE id_noticia='$id'";
 			$texto=mysqli_query($con,$sql) or die(mysqli_error($con));
 			$fila=mysqli_fetch_array($texto);
 			if(!empty($fila)){
 				if($fila['5']==1){ $fijate="checked"; }else{ $fijate=""; }
 				if($fila['6']==1){ $fijate2="checked"; }else{ $fijate2=""; }
-				if($fila['7']==1){ $fijate3= "checked"; }else{ $fijate3=""; }
+				if($fila['7']==1){ $fijate3="checked"; }else{ $fijate3=""; }
+				if($fila['9']==1){ $fijate4="checked"; }else{ $fijate4=""; }
+				if($fila['9']==0){ $fijate5="checked"; }else{ $fijate5=""; }
 				$fecha=strtotime($fila[8]);
 				$nuevafecha=date('Y-m-d',$fecha);
 				
-				echo "<section class='secnoti'><form method='POST' action='updatenoti.php?noticia=".$fila['0']."' enctype='multipart/form-data'><h2>Titulo</h2><input class='ingr' maxlength='70' type='text' type='text' value='".$fila['1']."' name='titulo' required /><h2>Sinopsis de la noticia</h2><textarea class='ingr' class='ingr' name='sinop' required maxlength='300' >".$fila['3']."</textarea><h2>Cuerpo de la noticia</h2><textarea id='summernote' name='noticia' required>".$fila['2']."</textarea><div class='user3'><h2 class='mensaje'>Portada</h2><input type='file' id='files' name='files'><output id='list'></output></div><hr><table style='margin:4%;width: 100%;font-size: 25px;'><tr><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='destacada' ".$fijate."/>Definir como destacada</label></td><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='actividad' ".$fijate2."/>Insertar al carrusel</label></td><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='slider' ".$fijate3."/>Definir como actividad</label></td></tr></table><hr><label class='fecha'>Fecha:</label><input id='date' type='date' name='fecha' value='".$nuevafecha."'><hr><p class='fecha'>Selecciona relevancia</p><select class='fecha' name='prioridad'><option class='fecha' value='max'>Maxima</option><option class='fecha' value='med'>Media</option><option class='fecha' value='min'>Minima</option><option class='fecha' value='none'>Ninguna</option></select><hr>";
+				echo "<section class='secnoti'><form method='POST' action='updatenoti.php?noticia=".$fila['0']."' enctype='multipart/form-data'><h2>Titulo</h2><input class='ingr' maxlength='70' type='text' type='text' value='".$fila['1']."' name='titulo' required /><h2>Sinopsis de la noticia</h2><textarea class='ingr' class='ingr' name='sinop' required maxlength='300' >".$fila['3']."</textarea><h2>Cuerpo de la noticia</h2><textarea id='summernote' name='noticia' required>".$fila['2']."</textarea><div class='user3'><h2 class='mensaje'>Portada</h2><input type='file' id='files' name='files'><output id='list'></output></div><hr class='altalinea'><h2 class='mensaje'>Tamaño de la noticia</h2><hr class='altalinea'><table style='margin:4%;width: 100%;font-size: 25px;'><tr><td><label style='margin-right: 10%;'><input type='radio' value='0' name='tamano' required />Grande</label></td><td></td><td><label style='margin-right: 10%;'><input type='radio' value='1' name='tamano' required />Pequeño</label></td></tr></table><hr class='altalinea'><h2 class='mensaje'>Aparicion de la noticia</h2><hr class='altalinea'><table style='margin:4%;width: 100%;font-size: 25px;'><tr><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='destacada' ".$fijate."/>Insertar en primera pagina</label></td><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='actividad' ".$fijate2."/>Insertar en actividades</label></td><td><label style='margin-right: 10%;'><input type='checkbox' value='1' name='slider' ".$fijate3."/>Insertar en el carrusel</label></td></tr></table><hr><label class='fecha'>Fecha:</label><input id='date' type='date' name='fecha' value='".$nuevafecha."'><hr><p class='fecha'>Selecciona relevancia</p><select class='fecha' name='prioridad'><option class='fecha' value='max'>Maxima</option><option class='fecha' value='med'>Media</option><option class='fecha' value='min'>Minima</option><option class='fecha' value='none'>Ninguna</option></select><hr>";
 				$consulta="SELECT id_asociado,nombre FROM asociado WHERE categoria=1";
 				$consulta2="SELECT id_asociado,nombre FROM asociado WHERE categoria=2";
 				$sqlasociados="SELECT id_asociado FROM noticiaasociado WHERE id_noticia='$id'";
