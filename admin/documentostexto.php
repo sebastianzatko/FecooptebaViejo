@@ -35,6 +35,7 @@
 		<!-- include summernote css/js -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+		<script src="https://fecoopteba.coop/admin/lang/summernote-es-ES.js"></script>
 		<script src="notify.js"></script>
 	</head>
 	<body>
@@ -185,15 +186,21 @@
 		$(document).ready(function() {
 			$('#summernote').summernote({
 				
-				onImageUpload: function(files,editor,welEditable){
-					sendFile(files[0], editor, welEditable);
+				lang: 'es-ES',
+				callbacks: {
+					onImageUpload: function(files, editor, welEditable) {
+						sendFile(files[0], editor, welEditable);
+					}           
 				}
 				
 			});
 			$('#summernote2').summernote({
 				
-				onImageUpload: function(files,editor,welEditable){
-					sendFile(files[0], editor, welEditable);
+				lang: 'es-ES',
+				callbacks: {
+					onImageUpload: function(files, editor, welEditable) {
+						sendFile2(files[0], editor, welEditable);
+					}           
 				}
 				
 			});
@@ -209,6 +216,58 @@
 					processData: false,
 					success: function(url) {
 						editor.insertImage(welEditable, url);
+					}
+				});
+			}
+		});
+		</script>
+		<script>
+		$(document).ready(function() {
+			$('#summernote').summernote({
+				lang: 'es-ES',
+				callbacks: {
+					onImageUpload: function(files, editor, welEditable) {
+						sendFile(files[0], editor, welEditable);
+					}           
+				}
+				
+			});
+			$('#summernote2').summernote({
+				
+				lang: 'es-ES',
+				callbacks: {
+					onImageUpload: function(files, editor, welEditable) {
+						sendFile2(files[0], editor, welEditable);
+					}           
+				}
+			});
+			function sendFile(file, url, editor) {
+				data = new FormData();
+				data.append("file", file);
+				$.ajax({
+					data: data,
+					type: "POST",
+					url: "subida.php",
+					cache: false,
+					contentType: false,
+					processData: false,
+					success: function(url) {
+						$('#summernote').summernote('editor.insertImage', url);
+					}
+				});
+			}
+			function sendFile2(file, url, editor) {
+				data = new FormData();
+				data.append("file", file);
+				$.ajax({
+					data: data,
+					type: "POST",
+					url: "subida.php",
+					cache: false,
+					contentType: false,
+					processData: false,
+					success: function(url) {
+						$('#summernote2').summernote('editor.insertImage', url);
 					}
 				});
 			}

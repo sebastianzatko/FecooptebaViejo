@@ -37,6 +37,6 @@ if (isset($_POST['email'], $_POST['password'])) {
     }
 } else {
     // The correct POST variables were not sent to this page. 
-    header('Location: ../error.php?err=Could not process login');
+    header('Location: ../error.php?err=No se puede ingresar al sistema');
     exit();
 }

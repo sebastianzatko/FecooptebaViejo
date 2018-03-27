@@ -194,6 +194,7 @@
 				}
 			
 			?>
+			<iframe src="https://www.pagina12.com.ar/"></iframe>
 		
 		<section class="footer">
 		<footer>

@@ -167,7 +167,7 @@
 					
 					<form action="saveasociado.php?cate=<?php echo $_GET['cate']; ?>" method="POST" enctype="multipart/form-data">
 						<div class="agru">
-							<div class="userc"><h2 class="mensaje">Nombre</h2><input type="text" name="nombre" maxlength='50' required /></div>
+							<div class="userc"><h2 class="mensaje">Nombre</h2><input type="text" name="nombre" maxlength='150' required /></div>
 							<div class="userc"><h2 class="mensaje">Matricula</h2><input type="text" name="matricula"  maxlength='40'/></div>
 						</div>
 						<div class="user56"><h2 class="mensaje">Logo de Coopteba o Vinculo</h2><input type="file" name="logo" id="files" name="files[]" required /><output id="list"></output></div>

@@ -40,7 +40,7 @@
 		</header>
 		<?php
 							require 'admin/conection.php';
-							$sql = "SELECT id_asociado,nombre,logo FROM asociado WHERE categoria=1";
+							$sql = "SELECT id_asociado,nombre,logo FROM asociado WHERE categoria=2";
 							$texto=mysqli_query($con,$sql) or die(mysqli_error($con));
 							if(count($texto)!=0){
 								echo "<section class='asoc'><div><div class='tabasoc'>";

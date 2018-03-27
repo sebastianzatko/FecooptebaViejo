@@ -234,13 +234,13 @@
 							$titulo=cortar($noticiadestacada['1'],27);
 							$sinopsis=cortar($noticiadestacada['2'],100);
 							if($x==1){
-								echo "<div class='contenedor-img ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara'><p class='date'>".$daa."</p><h2>".$titulo."</h2><p class='date'>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti?noticia=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
+								echo "<div class='contenedor-img ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara'><p class='date'>".$daa."</p><h2>".$titulo."</h2><p class='date'>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti.php?noticia=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
 								
 							}elseif($x==2){
-								echo "<div class='contenedor-img2 ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara2'><p class='date'>".$daa."</p><h2 class='nose3'>".$titulo."</h2><p>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti?noticia=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
+								echo "<div class='contenedor-img2 ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara2'><p class='date'>".$daa."</p><h2 class='nose3'>".$titulo."</h2><p>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti.php?noticia=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
 								
 							}elseif($x==3){
-								echo "<div class='contenedor-img3 ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara3'><p class='date'>".$daa."</p><h2>".$titulo."</h2><p>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti?noticia=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
+								echo "<div class='contenedor-img3 ejemplo-3'><img src='".$noticiadestacada['3']."' /><div class='mascara3'><p class='date'>".$daa."</p><h2>".$titulo."</h2><p>".$sinopsis."</p><a href='display.php?noticia=".$noticiadestacada['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarnoti.php?noticia=".$noticiadestacada[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti?noticia.php=".$noticiadestacada['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div>";
 								
 							}
 							if($x==3){

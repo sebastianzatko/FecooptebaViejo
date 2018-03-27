@@ -175,7 +175,7 @@
 					}else{
 						$dia=date_create($fila['5']);
 						$daa=date_format($dia,'d/m/Y');
-						echo "<section class='cuadronoticia'><img src='".$fila[4]."' class='detalleportada' /><center><h2 class='titulodetalle'>".$titulo."</h2></center><p class='date'>".$daa."</p><div class='noticiadetalle'>".$fila[3]."</div><div class='textodetalle'>".$fila[2]."</div><div class='icon'><a href='modificarnoti.php?noticia=".$fila[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='#'><i id='bas' class='fa fa-trash'></i></a></div><iframe id='jinju' src='' width='123' height='20' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true'></iframe></section>";
+						echo "<section class='cuadronoticia'><img src='".$fila[4]."' class='detalleportada' /><center><h2 class='titulodetalle'>".$titulo."</h2></center><p class='date'>".$daa."</p><div class='noticiadetalle'>".$fila[3]."</div><div class='textodetalle'>".$fila[2]."</div><div class='icon'><a href='modificarnoti.php?noticia=".$fila[0]."'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeletenoti.php?noticia=".$id."'><i id='bas' class='fa fa-trash'></i></a></div></section>";
 					}
 				?>
 				

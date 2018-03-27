@@ -31,21 +31,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 		<link rel="icon" href="favicon.png" type="admin/image/x-icon"/>
         <title>Secure Login: Error</title>
         <link rel="stylesheet" href="styles/main.css" />
-        <link rel="stylesheet" href="stylee.css" />
-       <style>
-           .logo287{
-               
-           }
-       </style>    
     </head>
     <body>
-    <section class="error404">
-        <img src="images/202381_poster_.png" class="errorimg" />
-        <div class="errorcaja">
-            <h2>Houston tenemos un problema...</h2>
-            <p class="error"><?php echo $error; ?></p>  
-            <input class="errorvolver" type="button" value="VOLVER" onclick="window.history.back()" name="action"/>
-        </div>
-        </section>    
+        <h1>There was a problem</h1>
+        <p class="error"><?php echo $error; ?></p>  
     </body>
 </html>

@@ -129,14 +129,14 @@
 		</header>
 		<?php
 									require 'conection.php';
-									$sql = "SELECT id_asociado,nombre,logo FROM asociado WHERE categoria=2";
+									$sql = "SELECT id_asociado,nombre,logo FROM asociado WHERE categoria=1";
 									$texto=mysqli_query($con,$sql) or die(mysqli_error($con));
 									if(count($texto)!=0){
 										echo "<section class='asoc'><div><div class='tabasoc'>";
 										echo "<tr>";
 										while($asociado = mysqli_fetch_array($texto)){
 											
-												echo "<div class='cajaasociados'><img class='imgasociados' src='".$asociado['2']."'><div class='overlay'><div class='text'>".cortar($asociado['1'],30)."</br></br><a href='verasociado.php?asociado=".$asociado['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarasoc.php?asociado=".$asociado['0']."&cate=2'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeteasoc?asociado=".$asociado['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div></div>";
+												echo "<div class='cajaasociados'><img class='imgasociados' src='".$asociado['2']."'><div class='overlay'><div class='text'>".cortar($asociado['1'],30)."</br></br><a href='verasociado.php?asociado=".$asociado['0']."' class='link'>Leer Mas</a><div class='icon'><a href='modificarasoc.php?asociado=".$asociado['0']."&cate=2'><i id='edi' class='fa fa-pencil'></i></a><a href='quickdeteasoc.php?asociado=".$asociado['0']."'><i id='bas' class='fa fa-trash'></i></a></div></div></div></div>";
 											
 										}
 										echo "</div></section>";

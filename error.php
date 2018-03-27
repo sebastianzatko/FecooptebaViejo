@@ -28,24 +28,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <html>
     <head>
         <meta charset="UTF-8">
+        <title>Error</title>
 		<link rel="icon" href="admin/favicon.png" type="admin/image/x-icon"/>
-        <title>Secure Login: Error</title>
-        <link rel="stylesheet" href="admin/styles/main.css" />
-        <link rel="stylesheet" href="admin/stylee.css" />
-       <style>
-           .logo287{
-               
-           }
-       </style>    
+        <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
-    <section class="error404">
-        <img src="admin/images/202381_poster_.png" class="errorimg" />
-        <div class="errorcaja">
-            <h2>Houston tenemos un problema...</h2>
-            <p class="error"><?php echo $error; ?></p>  
-            <input class="errorvolver" type="button" value="VOLVER" onclick="window.history.back()" name="action"/>
-        </div>
-        </section>    
+        <h1>Hubo un problema</h1>
+        <p class="error"><?php echo $error; ?></p>  
     </body>
 </html>

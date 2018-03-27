@@ -36,6 +36,7 @@
 		<!-- include summernote css/js -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+		<script src="https://fecoopteba.coop/admin/lang/summernote-es-ES.js"></script>
 		<script src="notify.js"></script>
 	</head>
 	<body>
@@ -176,9 +177,11 @@
 		<script>
 		$(document).ready(function() {
 			$('#summernote').summernote({
-				
-				onImageUpload: function(files,editor,welEditable){
-					sendFile(files[0], editor, welEditable);
+				lang: 'es-ES',
+				callbacks: {
+					onImageUpload: function(files, editor, welEditable) {
+						sendFile(files[0], editor, welEditable);
+					}           
 				}
 				
 			});
@@ -188,12 +191,12 @@
 				$.ajax({
 					data: data,
 					type: "POST",
-					url: "www.fecoopteba.coop/admin/subida.php",
+					url: "subida.php",
 					cache: false,
 					contentType: false,
 					processData: false,
 					success: function(url) {
-						editor.insertImage(welEditable, url);
+						$('#summernote').summernote('editor.insertImage', url);
 					}
 				});
 			}

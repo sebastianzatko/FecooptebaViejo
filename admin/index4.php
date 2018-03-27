@@ -211,6 +211,12 @@
 				$this.text(linkText);
 			});
 		</script>
+		<script>
+			$("a[href='#']").click(function() {
+			  $("html, body").animate({ scrollBottom: 0 }, "slow");
+			  return false;
+			});
+		</script>
 		<section class="footer">
 			<footer>
 			<div class="social">

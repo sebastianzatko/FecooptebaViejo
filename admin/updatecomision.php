@@ -50,10 +50,10 @@
 		$texto=isset($_POST["contentcomision"])? $_POST["contentcomision"]:null;
 		$titulo=isset($_POST["titulocomision"])? $_POST["titulocomision"]:null;
 		
-		$query="UPDATE `comision` SET `content`='$texto',`nombrecomision`,'$titulo' WHERE id_comision='$id'";
+		$query="UPDATE `comision` SET `content`='$texto',`nombrecomision`='$titulo' WHERE id_comision='$id'";
 		require 'conection.php';
 		mysqli_query($con,$query) or die(mysqli_error($con));
-		header("Location:modificarcomi?publicacion=".$id."&var=1");
+		header("Location:modificarcomi?comision=".$id."&var=1");
 	
 	?>
 	<?php else : ?>

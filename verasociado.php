@@ -60,7 +60,11 @@
 				if(empty($fila)){
 					echo "<section class='error404'><img src='admin/images/202381_poster_.png' alt='Logotipo de HTML5' class='errorimg' ><div CLASS='errorcaja'><h2>ERROR 404. Not Found</h2><p>Archivo no encontrado.</p></div></section>";
 				}else{
-					echo "<section class='detalleasociado'><img class='imgcoop23' src='admin/".$fila[2]."' /><div class='mapa' id='map'></div><div><div class='data'><h2 clss='nombredetalleasociado'>".$nombre."</h2><hr>";
+					if($fila[8]==0 && $fila[7]==0){
+						echo "<section class='detalleasociado'><img class='imgcoop23' src='admin/".$fila[2]."' /><div><div class='data'><h2 clss='nombredetalleasociado'>".$nombre."</h2><hr>";
+					}else{
+						echo "<section class='detalleasociado'><img class='imgcoop23' src='admin/".$fila[2]."' /><div class='mapa' id='map'></div><div><div class='data'><h2 clss='nombredetalleasociado'>".$nombre."</h2><hr>";
+					}
 					if(!empty($fila['1'])){
 						echo "<span class='spandata'><img class='icondata' src='img/licence.png'><p class='pdata'>Matricula:<b>".$fila['1']."</b></p></span>"; 
 						} 
