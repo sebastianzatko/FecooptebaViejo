@@ -1,0 +1,26 @@
+
+#023859 - azul oscuro
+
+#006bbd- azul
+
+#80c8ee - celeste
+
+'Montserrat', sans-serif
+
+    border-color: white;
+    border-style: solid;
+    border-width: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+font-family: 'Open Sans', sans-serif;
+
+
+	margin: 0 auto;
+	padding: 4%;
+
+background: rgba(2, 56, 89, 0.5);
+
+font-size: 20px;
+padding: 10px;

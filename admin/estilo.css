@@ -1,0 +1,3352 @@
+@media screen and (min-width:701px) and (max-width:800px) {   
+     /*modificar NOTICIA - ON*/
+     .atr{
+        font-size: 25px;
+        padding: 2%;
+    }
+    .cubalibre{
+        margin-bottom: 10%; margin-top: 7%;width: 95%;
+ 
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+	height: auto;
+	margin-left: 3%;
+    min-height:60%;
+    overflow-y: scroll!important;
+   
+    font-family: 'Montserrat', sans-serif!important
+    }
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+
+    .portadaatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .tituloatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .fechaatr{
+        padding: 10px 55px 10px 55px;
+        margin-bottom: 10px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr{
+        padding: 10px 55px 10px 55px;
+        background: #006bbd;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 90%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+
+
+     /*Modificar Publicaciones ON*/
+     .selec{
+        margin-bottom: 8%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 25px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .filepublicaciones{
+        font-size: 16px;
+        margin-bottom: 3%; 
+    }
+    form{
+        
+        margin: 0 auto;
+        
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 35%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    /*Modificar Publicaciones OFF*/
+   
+    /*Modificar Asociado y Coopteba - ON*/
+    .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .divtabla2{
+        width:95%!important; 
+        height:60%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+    .divtabla1{
+        width:95%!important; 
+        height:80%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+   
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+   
+    
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+   
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px;  
+    }
+        /* Modificar Documento - ON */
+        .titulodocmoc{
+            font-size: 22px;
+            padding-bottom: 5%;        
+        }
+
+        .documod{
+            padding-bottom: 5%;
+            padding-top: 5%;
+        
+        }
+        .docuselec{
+            background: #023859;
+        }
+        .docuselec a{
+            text-decoration: none;
+        color: white;
+        }
+
+        .hello{
+            display: block;
+            margin: 5%;
+        }
+        .haters{
+            width: 70%;
+            padding: 1%;
+        }
+    /* Modificar Documento - OFF */
+
+            /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+       
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 16px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+
+    /* Modificar COntacto - OFF */
+}
+@media screen and (min-width:801px) and (max-width:1000px) {   
+     /*modificar NOTICIA - ON*/
+     .atr{
+        font-size: 25px;
+        padding: 2%;
+    }
+    .thatr{
+        font-size: 20px;
+        padding: 3%;
+    }
+
+    .cubalibre{
+        margin-bottom: 10%; margin-top: 7%;width: 95%;
+ 
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+	height: auto;
+	margin-left: 3%;
+    min-height:60%;
+    overflow-y: scroll!important;
+   
+    font-family: 'Montserrat', sans-serif!important
+    }
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+
+    .portadaatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .tituloatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .fechaatr{
+        padding: 10px 55px 10px 55px;
+        margin-bottom: 10px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr{
+        padding: 10px 55px 10px 55px;
+        background: #006bbd;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 90%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+
+
+     /*Modificar Publicaciones ON*/
+     .selec{
+        margin-bottom: 8%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 25px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .filepublicaciones{
+        font-size: 16px;
+        margin-bottom: 3%; 
+    }
+    form{
+        
+        margin: 0 auto;
+        
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 35%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    /*Modificar Publicaciones OFF*/
+   
+    /*Modificar Asociado y Coopteba - ON*/
+    .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 18px;
+
+    }
+
+    .divtabla2{
+        width:95%!important; 
+        height:60%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+    .divtabla1{
+        width:95%!important; 
+        height:80%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+   
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+   
+    
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+   
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px;  
+    }
+        /* Modificar Documento - ON */
+        .titulodocmoc{
+            font-size: 22px;
+            padding-bottom: 5%;        
+        }
+
+        .documod{
+            padding-bottom: 5%;
+            padding-top: 5%;
+        
+        }
+        .docuselec{
+            background: #023859;
+        }
+        .docuselec a{
+            text-decoration: none;
+        color: white;
+        }
+
+        .hello{
+            display: block;
+            margin: 5%;
+        }
+        .haters{
+            width: 70%;
+            padding: 1%;
+        }
+    /* Modificar Documento - OFF */
+
+            /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+        
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 16px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+
+    /* Modificar COntacto - OFF */
+}
+@media screen and (min-width:1001px) and (max-width:1400px) {   
+    /*modificar - ON*/
+    .atr{
+        font-size: 27px;
+        padding: 2%;
+    }
+    .thatr{
+        font-size: 25px;
+        padding: 3%;
+    }
+
+
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+    .cubalibre{
+        margin-bottom: 10%; margin-top: 7%;width: 80%;
+ 
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+	height: auto;
+	margin-left: 10%;
+    min-height:60%;
+    overflow-y: scroll!important;
+   
+    font-family: 'Montserrat', sans-serif!important
+    }
+
+    .portadaatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .tituloatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .fechaatr{
+        padding: 10px 55px 10px 55px;
+        margin-bottom: 10px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr{
+        padding: 10px 55px 10px 55px;
+        background: #006bbd;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 70%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+
+     /*Modificar Publicaciones ON*/
+     .selec{
+        margin-bottom: 4%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 35px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;+
+    }
+    .filepublicaciones{
+        font-size: 20px; 
+        margin-bottom: 3%;
+    }
+    form{
+        
+        margin: 0 auto;
+        
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 35%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 20px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    /*Modificar Publicaciones OFF*/
+
+    /*Modificar Asociado y Coopteba - ON*/
+    .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        FONT-SIZE:18px;
+    }
+    .divtabla2{
+        width:95%!important; 
+        height:60%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+    .divtabla1{
+        width:95%!important; 
+        height:80%!important;
+        overflow-y: scroll!important;
+        float:left;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    
+
+   
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+  
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+   
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    /* Modificar Documento - ON */
+    .titulodocmoc{
+        font-size: 22px;
+        padding-bottom: 5%;        
+    }
+
+    .documod{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    
+    }
+    .docuselec{
+        background: #023859;
+    }
+    .docuselec a{
+        text-decoration: none;
+    color: white;
+    }
+    /* Modificar Documento - OFF */
+
+    /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+        
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 20px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+
+    /* Modificar COntacto - OFF */
+}
+@media screen and (min-width:1401px) and (max-width:1600px) {   
+    /*modificar - ON*/
+    .atr{
+        font-size: 27px;
+        padding: 2%;
+    }
+    .thatr{
+        font-size: 25px;
+        padding: 3%;
+    }
+
+    .cubalibre{
+        margin-bottom: 10%; margin-top: 7%;width: 80%;
+ 
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+	height: auto;
+	margin-left: 10%;
+    min-height:60%;
+    overflow-y: scroll!important;
+   
+    font-family: 'Montserrat', sans-serif!important
+    }
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+
+    .portadaatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .tituloatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .fechaatr{
+        padding: 10px 55px 10px 55px;
+        margin-bottom: 10px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr{
+        padding: 10px 55px 10px 55px;
+        background: #006bbd;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+       
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+    .divtabla2{
+        height: 80%;
+        overflow: auto;
+       
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla2 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+     /*Modificar Publicaciones ON*/
+     .selec{
+        margin-bottom: 4%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 35px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;+
+    }
+    .filepublicaciones{
+        font-size: 20px; 
+        margin-bottom: 3%;
+    }
+    form{
+     
+        margin: 0 auto;
+      
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 35%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    /*Modificar Publicaciones OFF*/
+    /*Modificar Asociado y Coopteba - ON*/
+    .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 20px;
+
+    }
+    #izq{
+        float:right;
+    }
+    #der{
+        float:left;
+    }
+        .divtabla2{
+            width:49%!important; 
+            height:60%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+        .divtabla1{
+            width:49%!important; 
+            height:80%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+   
+
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        font-size: 20px;
+        padding: 10px;
+        width:45%;
+        
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        font-size: 20px;
+        padding: 10px;
+        width:45%;
+        
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+   
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+   
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 20px; 
+    }
+    /* Modificar Documento - ON */
+    .titulodocmoc{
+        font-size: 22px;
+        padding-bottom: 5%;        
+    }
+
+    .documod{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    
+    }
+    .docuselec{
+        background: #023859;
+    }
+    .docuselec a{
+        text-decoration: none;
+    color: white;
+    }
+    
+    /* Modificar Documento - OFF */
+
+    /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+     
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 20px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+
+    /* Modificar COntacto - OFF */
+}
+@media screen and (min-width:1601px) and (max-width:1800px) {   
+   /*modificar - ON*/
+   .atr{
+    font-size: 30px;
+    padding: 2%;
+    }
+    .thatr{
+        font-size: 25px;
+        padding: 3%;
+    }
+
+    .cubalibre{
+        margin-bottom: 10%; margin-top: 7%;width: 80%;
+ 
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+	height: auto;
+	margin-left: 10%;
+    min-height:60%;
+    overflow-y: scroll!important;
+   
+    font-family: 'Montserrat', sans-serif!important
+    }
+
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+
+    .portadaatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .tituloatr{
+        padding: 10px 15px 10px 15px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .fechaatr{
+        padding: 10px 55px 10px 55px;
+        margin-bottom: 10px;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr{
+        padding: 10px 55px 10px 55px;
+        background: #006bbd;
+        text-align: center !important;
+        border: 3px solid #023859!important;
+    }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 90%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+
+    /*Modificar Publicaciones ON*/
+    .selec{
+        margin-bottom: 4%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;+
+    }
+    .filepublicaciones{   
+         margin-bottom: 3%;
+        font-size: 25px; 
+    }
+    form{
+        background: white;
+        margin: 0 auto;
+      
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 35%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    /*Modificar Publicaciones OFF*/
+      /*Modificar Asociado y Coopteba - ON*/
+      .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 20px;
+
+    }
+
+    #izq{
+        float:right;
+    }
+    #der{
+        float:left;
+    }
+        .divtabla2{
+            width:49%!important; 
+            height:60%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+        .divtabla1{
+            width:49%!important; 
+            height:60%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;    
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        padding: 10px;
+        width:45%;
+        font-size: 20px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        padding: 10px;
+        width:45%;
+        font-size: 20px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    
+    
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    
+    .modtab{
+        width: 85%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+   
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 22px; 
+    }
+        /* Modificar Documento - ON */
+        .titulodocmoc{
+            font-size: 22px;
+            padding-bottom: 5%;        
+        }
+
+        .documod{
+            padding-bottom: 5%;
+            padding-top: 5%;
+        
+        }
+        .docuselec{
+            background: #023859;
+        }
+        .docuselec a{
+            text-decoration: none;
+        color: white;
+        }
+    /* Modificar Documento - OFF */
+
+      /* Modificar COntacto - ON */
+      .editaremail{
+        font-size: 20px;
+        
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 20px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    
+    /* Modificar COntacto - OFF */
+}
+@media screen and (min-width:1801px) and (max-width:2000px) {   
+     /*modificar - ON*/
+     .atr{
+        font-size: 35px;
+        padding: 2%;
+        }
+        .thatr{
+            font-size: 25px;
+            padding: 3%;
+        }
+
+        .cubalibre{
+            margin-bottom: 10%; margin-top: 7%;width: 80%;
+     
+        background: #f5f5f5;
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+        margin-left: 10%;
+        min-height:60%;
+        overflow-y: scroll!important;
+       
+        font-family: 'Montserrat', sans-serif!important
+        }
+        .h2atr{    
+            margin: 0 auto;
+            font-size: 40px;
+            font-family: 'Montserrat', sans-serif!important;
+            color: #023859;
+            text-transform: uppercase;
+        }
+    
+        .portadaatr{
+            padding: 10px 15px 10px 15px;
+            text-align: center !important;
+            border: 3px solid #023859!important;
+        }
+        .tituloatr{
+            padding: 10px 15px 10px 15px;
+            text-align: center !important;
+            border: 3px solid #023859!important;
+        }
+        .fechaatr{
+            padding: 10px 55px 10px 55px;
+            margin-bottom: 10px;
+            text-align: center !important;
+            border: 3px solid #023859!important;
+        }
+        .modificaratr{
+            padding: 10px 55px 10px 55px;
+            background: #006bbd;
+            text-align: center !important;
+            border: 3px solid #023859!important;
+        }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 45%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+
+    /*modificar - OFF*/
+
+    /*Modificar Publicaciones ON*/
+    .selec{
+        margin-bottom: 4%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .user3{
+        margin-top:5%;
+    }
+    .mensaje{
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;+
+    }
+    .filepublicaciones{
+        font-size: 30px;  
+        margin-bottom: 3%;
+
+    }
+    form{
+        background: white;
+        margin: 0 auto;
+       
+        padding: 5%;
+        padding-bottom: 20%;
+        height: auto;
+    }
+    .botonspub{
+        margin-top:10%;
+        float: right;
+        display: inline-block;
+        width: 50%;
+    }
+    .botonpub{
+        float: right;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .botonpub:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .cancpub{
+        float: left;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .cancpub:hover{
+        background-color:blueviolet;
+        color:white;
+        
+    }
+    /*Modificar Publicaciones OFF*/
+      /*Modificar Asociado y Coopteba - ON*/
+      .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 22px;
+
+    }
+
+    #izq{
+        float:right;
+    }
+    #der{
+        float:left;
+    }
+        .divtabla2{
+            width:49%!important; 
+            height:60%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+        .divtabla1{
+            width:49%!important; 
+            height:60%!important;
+            overflow-y: scroll!important;
+            display: inline!important;
+            font-family: 'Montserrat', sans-serif!important;
+        }
+
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    .modtab{
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        background: #f5f5f5;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+   
+
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        font-size:25px;
+        width:45%;
+        padding: 10px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        font-size:25px;
+        width:45%;
+        padding: 10px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+   
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+   
+    
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+   
+    .lol{
+        display: none;
+    }
+   
+   
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 24px; 
+    }
+    /* Modificar Documento - ON */
+    .titulodocmoc{
+        font-size: 22px;
+        padding-bottom: 5%;        
+    }
+
+    .documod{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    
+    }
+    .docuselec{
+        background: #023859;
+    }
+    .docuselec a{
+        text-decoration: none;
+    color: white;
+    }
+    /* Modificar Documento - OFF */
+
+    /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+        
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 20px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    
+    /* Modificar COntacto - OFF */
+
+}
+@media screen and (min-width:2001px) {   
+          /*modificar - ON*/
+        .thatr{
+            font-size: 25px;
+            padding: 3%;
+        }
+
+
+          .atr{
+            font-size: 40px;
+            padding: 2%;
+            }
+            .cubalibre{
+            margin-bottom: 10%;
+            margin-top: 7%;
+            width: 80%;
+         
+            background: #f5f5f5;
+            padding: 5%;
+            padding-bottom: 20%;
+            height: auto;
+            margin-left: 10%;
+            min-height:60%;
+            overflow-y: scroll!important;
+           
+            font-family: 'Montserrat', sans-serif!important
+            }
+        
+            .h2atr{    
+                margin: 0 auto;
+                font-size: 40px;
+                font-family: 'Montserrat', sans-serif!important;
+                color: #023859;
+                text-transform: uppercase;
+            }
+        
+            .portadaatr{
+                padding: 10px 15px 10px 15px;
+                text-align: center !important;
+                border: 3px solid #023859!important;
+            }
+            .tituloatr{
+                padding: 10px 15px 10px 15px;
+                text-align: center !important;
+                border: 3px solid #023859!important;
+            }
+            .fechaatr{
+                padding: 10px 55px 10px 55px;
+                margin-bottom: 10px;
+                text-align: center !important;
+                border: 3px solid #023859!important;
+            }
+            .modificaratr{
+                padding: 10px 55px 10px 55px;
+                background: #006bbd;
+                text-align: center !important;
+                border: 3px solid #023859!important;
+            }
+    .modificaratr a{  
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .divtabla1{
+        height: 80%;
+        overflow: auto;
+        width: 45%;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border: 3px solid #023859;
+        
+    }
+
+    .h2atr{    
+        margin: 0 auto;
+        font-size: 49px;
+        font-family: 'Montserrat', sans-serif!important;
+        color: #023859;
+        text-transform: uppercase;
+    }
+        /*Modificar Noticia OFF*/
+
+        /*Modificar Publicaciones ON*/
+        .selec{
+            margin-bottom: 4%;
+            margin-top: 5%;
+            font-size: 20px;
+        }
+        .user3{
+            margin-top:5%;
+        }
+        .mensaje{
+            font-size: 45px;
+            padding-bottom: 3%;
+            font-family: 'Montserrat', sans-serif;+
+        }
+        .filepublicaciones{
+            font-size: 30px; 
+        }
+        form{
+            width: 90%;
+            margin: 0 auto;
+            background: white;
+            padding: 5%;
+            padding-bottom: 20%;
+            height: auto;
+        }
+        .botonspub{
+            margin-top:10%;
+            float: right;
+            display: inline-block;
+            width: 50%;
+        }
+        .botonpub{
+            float: right;
+            font-size: 30px;
+            width:49%;
+            height:60px;
+            background-color: forestgreen;
+            color:white;
+        }
+        .botonpub:hover{
+            background-color: #023859;
+            color:white;
+        }
+        .cancpub{
+            float: left;
+            font-size: 30px;
+            width:49%;
+            height:60px;
+            background-color: red;
+            color:white;
+        }
+        .cancpub:hover{
+            background-color:blueviolet;
+            color:white;
+        }
+        /*Modificar Publicaciones OFF*/
+     /*Modificar Asociado y Coopteba - ON*/
+     .divtabla2{
+        width:49%!important; 
+        height:60%!important;
+        overflow-y: scroll!important;
+        display: inline!important;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+    .divtabla1{
+        width:49%!important; 
+        height:60%!important;
+        overflow-y: scroll!important;
+        display: inline!important;
+        font-family: 'Montserrat', sans-serif!important;
+    }
+            
+        #izq{
+            float:right;
+        }
+        #der{
+            float:left;
+        }
+     
+     
+     
+     .modititular{
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .chiquitoaso{
+        width:100px;
+        height:100px;
+    }
+
+    .tabla3{
+        font-family: 
+        'Montserrat', sans-serif ;        
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla4{
+        font-family: 
+        'Montserrat', sans-serif ;    
+        float: right;
+        width: 100%;
+        margin-bottom: 15%;
+        background: #f5f5f5;
+        padding: 5%;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+        
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:3px solid  #023859;
+        border-left:none;
+        border-right:none;
+       
+    }
+    .asomodiboton {
+        background: #023859;}
+    .asomodiboton a {
+        
+        color:white;
+        text-decoration: none;
+    }
+    .asomodi{
+        background:rgba(2, 56, 89, 0.5);  
+        color:white;
+    }
+    .modtab{
+        width: 85%;
+        margin:0 auto;
+    }
+    /*Modificar Asociado y Coopteba - OFF*/
+    .botons{
+        margin-top: 8%;
+        float: right;
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:150px ;
+        font-size: 60px;
+    }
+
+    
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+  
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+   
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        height:170px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:170px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    }
+    .checkbox{
+        -ms-transform: scale(2); 
+        -moz-transform: scale(2);
+        -webkit-transform: scale(5);
+        -o-transform: scale(2);
+        margin:30px;
+    }
+    .checkboxtext{
+        font-size: 90px;
+    }
+    .checkboxtext1{
+        font-size: 50px;
+    }  
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+   
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 24px; 
+    }
+    #files{
+        font-size: 30px;
+        margin-bottom: 3%;
+    }
+    /* Modificar Documento - ON */
+        .titulodocmoc{
+            font-size: 22px;
+            padding-bottom: 5%;        
+        }
+
+        .documod{
+            padding-bottom: 5%;
+            padding-top: 5%;
+        
+        }
+        .docuselec{
+            background: #023859;
+        }
+        .docuselec a{
+            text-decoration: none;
+        color: white;
+        }
+    /* Modificar Documento - OFF */
+
+    /* Modificar COntacto - ON */
+    .editaremail{
+        font-size: 20px;
+       
+        margin-bottom: 8%;
+        padding-left:5%; 
+    }
+    .mail{
+        width: 70%;
+        font-size: 20px;
+    }
+    .mensaje2{
+        padding-top: 3%;
+        font-size: 45px;
+        padding-bottom: 3%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #casitareloca{
+        padding-right:2%;
+    }
+    .divbonico{
+        display: inline;
+    }
+
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+
+    .botonera{
+        display: block;
+        margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+    }
+
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    
+    /* Modificar COntacto - OFF */
+
+}

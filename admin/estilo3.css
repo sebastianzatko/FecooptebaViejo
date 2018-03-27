@@ -1,0 +1,2010 @@
+@media screen and (min-width:701px) and (max-width:800px) {   
+    .dejendeponerlosstyleenelindex{
+        width: 55%;
+         height: 7%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+   
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1000px) {   
+    
+    .dejendeponerlosstyleenelindex{
+        width: 48%;
+         height: 7%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+   
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1400px) {   
+    .dejendeponerlosstyleenelindex{
+        width: 48%;
+         height: 8%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+    
+}
+@media screen and (min-width:1401px) and (max-width:1600px) {   
+    .dejendeponerlosstyleenelindex{
+        width: 48%;
+         height: 10%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+    
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}
+@media screen and (min-width:1601px) and (max-width:1800px) {   
+    .dejendeponerlosstyleenelindex{
+        width: 48%;
+         height: 10%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}
+@media screen and (min-width:1801px) and (max-width:2000px) {   
+    
+    .dejendeponerlosstyleenelindex{
+        width: 48%;
+         height: 10%;
+         padding: 13px;
+         margin-bottom: 15px;
+         background-color: #023859;
+         cursor: pointer;
+         margin-right: 2%;
+ }
+    form {
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1 {
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}
+@media screen and (min-width:2001px) {   
+    
+    .dejendeponerlosstyleenelindex{
+           width: 48%;
+            height: 10%;
+            padding: 13px;
+            margin-bottom: 15px;
+            background-color: #023859;
+            cursor: pointer;
+            margin-right: 2%;
+    }
+    form{
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+        float: right;
+        margin-right: 10%;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;
+        margin-bottom:8%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 30px;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 50px 15px;
+        height: 150%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        height:70px;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        height:70px;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .newtabla th{
+        font-size: 25px;
+    }
+    .newtabla td{
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        width: 10%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .chiquito1{
+        width:60px;
+        height:50px;
+    }
+    .priotabla{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height:55%;
+        overflow-y: scroll;
+    }
+    #img{
+        background: rgba(2, 56, 89, 0.9);
+        border:3px solid #023859;
+    }
+    #tex{
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.5);
+    }
+    #tex1{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+       
+    }
+    #tex2{
+        height:50px;
+        border:3px solid #023859;
+        border-left: none;
+        border-right: none;
+        background: rgba(2, 56, 89, 0.849);
+        
+    }
+    #tex2 a{
+        color:white;
+    }
+}

@@ -1,0 +1,33 @@
+Logging in build 2018.0.0.685 started at: Thu Jan 11 13:30:58 2018
+========================================
+[00:00:25.928] 13:31:25.616 | quitWithUI:Quitting Application. Called by: 
+[00:00:25.928] 13:31:25.620 | Quitting Application after 0.4 minutes. Called by: 
+[00:00:28.049] Logging shutdown normally
+
+==========
+Logging ended at: Thu Jan 11 13:31:27 2018
+
+Logging in build 2018.0.0.685 started at: Thu Jan 11 13:33:52 2018
+========================================
+[00:00:05.788] 13:33:57.888 | Error - IMS : IMSLib not loaded
+[00:00:55.786] 13:34:47.880 | quitWithUI:Quitting Application. Called by: 
+[00:00:55.786] 13:34:47.884 | Quitting Application after 0.9 minutes. Called by: 
+[00:00:57.705] Logging shutdown normally
+
+==========
+Logging ended at: Thu Jan 11 13:34:49 2018
+
+Logging in build 2018.0.0.685 started at: Thu Jan 11 16:27:16 2018
+========================================
+[00:00:47.877] 16:28:04.510 | Error - IMS : IMSLib not loaded
+[00:06:04.356] 16:33:20.989 | MenuWidgetPageItem::copyTo::updateQueryInfoLocal removing listener(if any) for CONVERSION_SESSION_ENDING
+[00:06:08.053] 16:33:24.684 | MenuWidgetPageItem::copyTo::updateQueryInfoLocal removing listener(if any) for CONVERSION_SESSION_ENDING
+[00:06:11.532] 16:33:28.158 | MenuWidgetPageItem::copyTo::updateQueryInfoLocal removing listener(if any) for CONVERSION_SESSION_ENDING
+[00:06:11.969] 16:33:28.601 | MenuWidgetPageItem::copyTo::updateQueryInfoLocal removing listener(if any) for CONVERSION_SESSION_ENDING
+[00:12:10.646] 16:39:27.286 | quitWithUI:Quitting Application. Called by: 
+[00:12:12.627] 16:39:29.259 | Quitting Application after 12.2 minutes. Called by: 
+[00:12:15.108] Logging shutdown normally
+
+==========
+Logging ended at: Thu Jan 11 16:39:31 2018
+

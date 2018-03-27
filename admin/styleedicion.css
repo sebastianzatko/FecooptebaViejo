@@ -1,0 +1,1540 @@
+@media screen and (min-width:750px) and (max-width:1000px){
+	.hijomain{
+		z-index:10;
+		position:relative;
+		
+		margin-left: 4%;
+		margin-right: 4%;
+		
+	}
+	.principalmain{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+
+	.logo69{
+		width:75%;
+		margin-top:10%;
+		margin-bottom:8%;
+	}
+	.recuadro{
+		width:45%;
+		height:auto;
+		margin:0 auto;
+		
+		margin-top:10%;
+		
+		font-family: 'Open Sans Condensed', sans-serif; 
+		color:black;	
+		text-align:center;
+		background: rgba(234, 238, 241, 0.9);
+
+		margin-top:5%;
+		
+		
+
+	}
+
+	.user{
+		display:inline-block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:45%;
+		height:60px;
+		
+		
+	
+	}
+	.userc{
+		display:block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:85%;
+		height:100px;
+		float:left;
+		
+		
+	
+	}
+	.userc input[type=text]{
+		width:95%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv{
+		display:block;
+		margin:0 auto;
+		margin-top:5%;
+		margin-bottom:6%;
+		margin-left:3%;
+		width:97%;
+		height:60px;
+		box-sizing: border-box;
+		
+		
+	
+	}
+	.user input[type=text]{
+		width:80%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv input[type=text]{
+		width:80%;
+		display:inline;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 5px;
+		color:black;
+		font-size:20px;
+		vertical-align:center;
+		text-decoration:none;
+	}
+	.fantasma{
+		display:none;
+			
+
+	
+	}
+	.fantasma input[type=text]{
+		display:none;
+	}
+	.user56{
+		display: inline-block;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 9%;
+		width: 80%;
+		min-height: 40%;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		padding: 5px 5px 5px 55px;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	.user4{
+		display: inline-block;
+		float:left;
+		width: 80%;
+		height: auto;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		margin-left:5%;
+		padding: 4%;
+		background-color: rgba(223, 219, 216, 0.4);
+
+	
+	}
+	.user4 *{
+		margin:0 auto;
+	}
+	input[type=text]:focus {
+		background-color: lightblue;
+	}
+	input[type=password]:focus {
+		background-color: lightblue;
+	}
+	.contra{
+		display:block;
+		margin:0 auto;
+		margin-top:1%;
+		margin-bottom:1%;
+		width:90%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+		padding: 6px 6px 6px 55px;
+	}
+
+	input[type=submit], input[type=reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		text-transform: uppercase;
+		display:inline-block;
+		width:90%;
+		margin-top:7%;
+		margin-bottom:7%;
+		margin-left:4%;
+		
+		
+	}
+
+
+	.logon:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+		}
+		
+		
+	.mensaje{
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom:6%;
+			
+	}
+
+	.thumb {	width: 100%;
+				height: 40%;
+				border: 1px solid #000;
+				margin: 20px 0px 0px -40px;
+			}
+			
+			
+	.usercontac{
+		display: inline-block;
+		width: 87%;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+		margin-bottom: 15%;
+	}
+
+	
+	input::placeholder{
+		color:black !important; 
+	}
+
+	input[type=button]{
+		 background-color: forestgreen;
+        color:white;
+        height: 30px;
+	}
+		 #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+	.botonera{
+		margin:0 auto;
+		width:30%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.extras{
+		display:block;
+	}
+	.agru{
+		display:inline-block;
+		float:left;
+		margin-left:5%;
+		margin-top:5%;
+		margin-bottom: 1%;
+		width:100%;
+	}
+	#lat{
+		display: none;
+	}
+	#long{
+		display: none;
+	}
+}
+@media screen and (min-width:1001px) and (max-width:1400px){
+		.hijomain{
+			z-index:10;
+			position:relative;
+			
+			margin-left: 4%;
+			margin-right: 4%;
+			
+		}
+		.principalmain{
+			width:100%;
+			height:100%;
+			position:absolute;
+		}
+
+		.logo69{
+			width:75%;
+			margin-top:10%;
+			margin-bottom:8%;
+		}
+		.recuadro{
+			width:45%;
+			height:auto;
+			margin:0 auto;
+			
+			margin-top:10%;
+			
+			font-family: 'Open Sans Condensed', sans-serif; 
+			color:black;	
+			text-align:center;
+			background: rgba(234, 238, 241, 0.9);
+
+			margin-top:5%;
+			
+			
+
+		}
+
+		.user{
+			display:inline-block;
+			margin:0 auto;
+			margin-top:3%;
+			margin-bottom:3%;
+			margin-left:3%;
+			width:45%;
+			height:60px;
+			
+			
+		
+		}
+		.userc{
+			display:block;
+			margin:0 auto;
+			margin-top:3%;
+			margin-bottom:3%;
+			margin-left:3%;
+			width:85%;
+			height:100px;
+			float:left;
+			
+			
+		
+		}
+		.userc input[type=text]{
+			width:95%;
+			height:60px;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+			background-color: rgba(223, 219, 216, 0.4);
+			padding: 5px 5px 5px 55px;
+			color:black;
+			font-size:20px;
+		}
+		.userv{
+			display:block;
+			margin:0 auto;
+			margin-top:5%;
+			margin-bottom:6%;
+			margin-left:3%;
+			width:97%;
+			height:60px;
+			box-sizing: border-box;
+			
+			
+		
+		}
+		.user input[type=text]{
+			width:80%;
+			height:60px;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+			background-color: rgba(223, 219, 216, 0.4);
+			padding: 5px 5px 5px 55px;
+			color:black;
+			font-size:20px;
+		}
+		.userv input[type=text]{
+			width:80%;
+			display:inline;
+			height:60px;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+			background-color: rgba(223, 219, 216, 0.4);
+			padding: 5px 5px 5px 5px;
+			color:black;
+			font-size:20px;
+			vertical-align:center;
+			text-decoration:none;
+		}
+		.fantasma{
+			display:none;
+				
+
+		
+		}
+		.fantasma input[type=text]{
+			display:none;
+		}
+		.user56{
+			display: inline-block;
+			margin: 0 auto;
+			margin-top: 5%;
+			margin-bottom: 9%;
+			width: 40%;
+			min-height: 40%;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			padding: 5px 5px 5px 55px;
+			margin-left: 5%;
+			background-color: rgba(223, 219, 216, 0.4);
+		}
+
+
+		.user4{
+			display: inline-block;
+			float:left;
+			width: 40%;
+			height: auto;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			margin-left:5%;
+			padding: 4%;
+			background-color: rgba(223, 219, 216, 0.4);
+
+		
+		}
+		.user4 *{
+			margin:0 auto;
+		}
+		input[type=text]:focus {
+			background-color: lightblue;
+		}
+		input[type=password]:focus {
+			background-color: lightblue;
+		}
+		.contra{
+			display:block;
+			margin:0 auto;
+			margin-top:1%;
+			margin-bottom:1%;
+			width:90%;
+			height:60px;
+			border: none;
+			border-bottom: 5px solid #006bbd;
+			background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+			padding: 6px 6px 6px 55px;
+		}
+
+		input[type=submit], input[type=reset] {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 16px 32px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+			text-transform: uppercase;
+			display:inline-block;
+			width:90%;
+			margin-top:7%;
+			margin-bottom:7%;
+			margin-left:4%;
+			
+			
+		}
+
+
+		.logon:hover {
+							box-shadow: 0 0 5px ;
+							background-color:white;
+							color:black;
+			}
+			
+			
+		.mensaje{
+			color: black;
+			font-family: 'Nunito', sans-serif;
+			margin-bottom:6%;
+				
+		}
+
+		.thumb {	width: 100%;
+					height: 40%;
+					border: 1px solid #000;
+					margin: 20px 0px 0px -40px;
+				}
+				
+				
+		.usercontac{
+			display:inline-block;
+			width:45%;
+			
+			float:right;
+			margin-right:5%;
+			background-color: rgba(223, 219, 216, 0.4);
+		}
+
+		
+		input::placeholder{
+			color:black !important; 
+		}
+
+		input[type=button]{
+			background-color: #4CAF50;
+			cursor: pointer;
+			margin: 5%;
+			float: right;
+		}
+		.botonera{
+			margin:0 auto;
+			width:30%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		.extras{
+			display:block;
+		}
+		.agru{
+			display:inline-block;
+			float:left;
+			margin-left:5%;
+			margin-top:5%;
+			margin-bottom: 1%;
+			width:44%;
+		}
+		#lat{
+			display: none;
+		}
+		#long{
+			display: none;
+		}
+		
+}
+@media screen and (min-width:1401px) and (max-width:1600px){
+	.hijomain{
+		z-index:10;
+		position:relative;
+		
+		margin-left: 4%;
+		margin-right: 4%;
+		
+	}
+	.principalmain{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+
+	.logo69{
+		width:75%;
+		margin-top:10%;
+		margin-bottom:8%;
+	}
+	.recuadro{
+		width:45%;
+		height:auto;
+		margin:0 auto;
+		
+		margin-top:10%;
+		
+		font-family: 'Open Sans Condensed', sans-serif; 
+		color:black;	
+		text-align:center;
+		background: rgba(234, 238, 241, 0.9);
+
+		margin-top:5%;
+		
+		
+
+	}
+
+	.user{
+		display:inline-block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:45%;
+		height:60px;
+		
+		
+	
+	}
+	.userc{
+		display:block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:85%;
+		height:100px;
+		float:left;
+		
+		
+	
+	}
+	.userc input[type=text]{
+		width:95%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv{
+		display:block;
+		margin:0 auto;
+		margin-top:5%;
+		margin-bottom:6%;
+		margin-left:3%;
+		width:97%;
+		height:60px;
+		box-sizing: border-box;
+		
+		
+	
+	}
+	.user input[type=text]{
+		width:80%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv input[type=text]{
+		width:80%;
+		display:inline;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 5px;
+		color:black;
+		font-size:20px;
+		vertical-align:center;
+		text-decoration:none;
+	}
+	.fantasma{
+		display:none;
+			
+
+	
+	}
+	.fantasma input[type=text]{
+		display:none;
+	}
+	.user56{
+		display: inline-block;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 9%;
+		width: 40%;
+		min-height: 40%;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		padding: 5px 5px 5px 55px;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	.user4{
+		display: inline-block;
+		float:left;
+		width: 40%;
+		height: auto;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		margin-left:5%;
+		padding: 4%;
+		background-color: rgba(223, 219, 216, 0.4);
+
+	
+	}
+	.user4 *{
+		margin:0 auto;
+	}
+	input[type=text]:focus {
+		background-color: lightblue;
+	}
+	input[type=password]:focus {
+		background-color: lightblue;
+	}
+	.contra{
+		display:block;
+		margin:0 auto;
+		margin-top:1%;
+		margin-bottom:1%;
+		width:90%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+		padding: 6px 6px 6px 55px;
+	}
+
+	input[type=submit], input[type=reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		text-transform: uppercase;
+		display:inline-block;
+		width:90%;
+		margin-top:7%;
+		margin-bottom:7%;
+		margin-left:4%;
+		
+		
+	}
+
+
+	.logon:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+		}
+		
+		
+	.mensaje{
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom:6%;
+			
+	}
+
+	.thumb {	width: 100%;
+				height: 40%;
+				border: 1px solid #000;
+				margin: 20px 0px 0px -40px;
+			}
+			
+			
+	.usercontac{
+		display:inline-block;
+		width:45%;
+		
+		float:right;
+		margin-right:5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+	
+	input::placeholder{
+		color:black !important; 
+	}
+
+	input[type=button]{
+		background-color: #4CAF50;
+		cursor: pointer;
+		margin: 5%;
+		float: right;
+	}
+	.botonera{
+		margin:0 auto;
+		width:30%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.extras{
+		display:block;
+	}
+	.agru{
+		display:inline-block;
+		float:left;
+		margin-left:5%;
+		margin-top:5%;
+		margin-bottom: 1%;
+		width:44%;
+	}
+	#lat{
+		display: none;
+	}
+	#long{
+		display: none;
+	}
+}
+@media screen and (min-width:1601px) and (max-width:1800px){
+	.hijomain{
+		z-index:10;
+		position:relative;
+		
+		margin-left: 4%;
+		margin-right: 4%;
+		
+	}
+	.principalmain{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+
+	.logo69{
+		width:75%;
+		margin-top:10%;
+		margin-bottom:8%;
+	}
+	.recuadro{
+		width:45%;
+		height:auto;
+		margin:0 auto;
+		
+		margin-top:10%;
+		
+		font-family: 'Open Sans Condensed', sans-serif; 
+		color:black;	
+		text-align:center;
+		background: rgba(234, 238, 241, 0.9);
+
+		margin-top:5%;
+		
+		
+
+	}
+
+	.user{
+		display:inline-block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:45%;
+		height:60px;
+		
+		
+	
+	}
+	.userc{
+		display:block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:85%;
+		height:100px;
+		float:left;
+		
+		
+	
+	}
+	.userc input[type=text]{
+		width:95%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv{
+		display:block;
+		margin:0 auto;
+		margin-top:5%;
+		margin-bottom:6%;
+		margin-left:3%;
+		width:97%;
+		height:60px;
+		box-sizing: border-box;
+		
+		
+	
+	}
+	.user input[type=text]{
+		width:80%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv input[type=text]{
+		width:80%;
+		display:inline;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 5px;
+		color:black;
+		font-size:20px;
+		vertical-align:center;
+		text-decoration:none;
+	}
+	.fantasma{
+		display:none;
+			
+
+	
+	}
+	.fantasma input[type=text]{
+		display:none;
+	}
+	.user56{
+		display: inline-block;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 9%;
+		width: 40%;
+		min-height: 40%;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		padding: 5px 5px 5px 55px;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	.user4{
+		display: inline-block;
+		float:left;
+		width: 40%;
+		height: auto;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		margin-left:5%;
+		padding: 4%;
+		background-color: rgba(223, 219, 216, 0.4);
+
+	
+	}
+	.user4 *{
+		margin:0 auto;
+	}
+	input[type=text]:focus {
+		background-color: lightblue;
+	}
+	input[type=password]:focus {
+		background-color: lightblue;
+	}
+	.contra{
+		display:block;
+		margin:0 auto;
+		margin-top:1%;
+		margin-bottom:1%;
+		width:90%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+		padding: 6px 6px 6px 55px;
+	}
+
+	input[type=submit], input[type=reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		text-transform: uppercase;
+		display:inline-block;
+		width:90%;
+		margin-top:7%;
+		margin-bottom:7%;
+		margin-left:4%;
+		
+		
+	}
+
+
+	.logon:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+		}
+		
+		
+	.mensaje{
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom:6%;
+			
+	}
+
+	.thumb {	width: 100%;
+				height: 40%;
+				border: 1px solid #000;
+				margin: 20px 0px 0px -40px;
+			}
+			
+			
+	.usercontac{
+		display:inline-block;
+		width:45%;
+		
+		float:right;
+		margin-right:5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+	
+	input::placeholder{
+		color:black !important; 
+	}
+
+	input[type=button]{
+		background-color: #4CAF50;
+		cursor: pointer;
+		margin: 5%;
+		float: right;
+	}
+	.botonera{
+		margin:0 auto;
+		width:30%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.extras{
+		display:block;
+	}
+	.agru{
+		display:inline-block;
+		float:left;
+		margin-left:5%;
+		margin-top:5%;
+		margin-bottom: 1%;
+		width:44%;
+	}
+	#lat{
+		display: none;
+	}
+	#long{
+		display: none;
+	}
+}
+@media screen and (min-width:1801px) and (max-width:2000px){
+	.hijomain{
+		z-index:10;
+		position:relative;
+		
+		margin-left: 4%;
+		margin-right: 4%;
+		
+	}
+	.principalmain{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+
+	.logo69{
+		width:75%;
+		margin-top:10%;
+		margin-bottom:8%;
+	}
+	.recuadro{
+		width:45%;
+		height:auto;
+		margin:0 auto;
+		
+		margin-top:10%;
+		
+		font-family: 'Open Sans Condensed', sans-serif; 
+		color:black;	
+		text-align:center;
+		background: rgba(234, 238, 241, 0.9);
+
+		margin-top:5%;
+		
+		
+
+	}
+
+	.user{
+		display:inline-block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:45%;
+		height:60px;
+		
+		
+	
+	}
+	.userc{
+		display:block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:85%;
+		height:100px;
+		float:left;
+		
+		
+	
+	}
+	.userc input[type=text]{
+		width:95%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv{
+		display:block;
+		margin:0 auto;
+		margin-top:5%;
+		margin-bottom:6%;
+		margin-left:3%;
+		width:97%;
+		height:60px;
+		box-sizing: border-box;
+		
+		
+	
+	}
+	.user input[type=text]{
+		width:80%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv input[type=text]{
+		width:80%;
+		display:inline;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 5px;
+		color:black;
+		font-size:20px;
+		vertical-align:center;
+		text-decoration:none;
+	}
+	.fantasma{
+		display:none;
+			
+
+	
+	}
+	.fantasma input[type=text]{
+		display:none;
+	}
+	.user56{
+		display: inline-block;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 9%;
+		width: 40%;
+		min-height: 40%;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		padding: 5px 5px 5px 55px;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	.user4{
+		display: inline-block;
+		float:left;
+		width: 40%;
+		height: auto;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		margin-left:5%;
+		padding: 4%;
+		background-color: rgba(223, 219, 216, 0.4);
+
+	
+	}
+	.user4 *{
+		margin:0 auto;
+	}
+	input[type=text]:focus {
+		background-color: lightblue;
+	}
+	input[type=password]:focus {
+		background-color: lightblue;
+	}
+	.contra{
+		display:block;
+		margin:0 auto;
+		margin-top:1%;
+		margin-bottom:1%;
+		width:90%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+		padding: 6px 6px 6px 55px;
+	}
+
+	input[type=submit], input[type=reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		text-transform: uppercase;
+		display:inline-block;
+		width:90%;
+		margin-top:7%;
+		margin-bottom:7%;
+		margin-left:4%;
+		
+		
+	}
+
+
+	.logon:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+		}
+		
+		
+	.mensaje{
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom:6%;
+			
+	}
+
+	.thumb {	width: 100%;
+				height: 40%;
+				border: 1px solid #000;
+				margin: 20px 0px 0px -40px;
+			}
+			
+			
+	.usercontac{
+		display:inline-block;
+		width:45%;
+		
+		float:right;
+		margin-right:5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	input::placeholder{
+		color:black !important; 
+	}
+
+	input[type=button]{
+		background-color: #4CAF50;
+		cursor: pointer;
+		margin: 5%;
+		float: right;
+	}
+	.botonera{
+		margin:0 auto;
+		width:30%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.extras{
+		display:block;
+	}
+	.agru{
+		display:inline-block;
+		float:left;
+		margin-left:5%;
+		margin-top:5%;
+		margin-bottom: 1%;
+		width:44%;
+	}
+	#lat{
+		display: none;
+	}
+	#long{
+		display: none;
+	}
+}
+@media screen and (min-width:2001px) and (max-width:2200px){
+	.hijomain{
+		z-index:10;
+		position:relative;
+		
+		margin-left: 4%;
+		margin-right: 4%;
+		
+	}
+	.principalmain{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+
+	.logo69{
+		width:75%;
+		margin-top:10%;
+		margin-bottom:8%;
+	}
+	.recuadro{
+		width:45%;
+		height:auto;
+		margin:0 auto;
+		
+		margin-top:10%;
+		
+		font-family: 'Open Sans Condensed', sans-serif; 
+		color:black;	
+		text-align:center;
+		background: rgba(234, 238, 241, 0.9);
+
+		margin-top:5%;
+		
+		
+
+	}
+
+	.user{
+		display:inline-block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:45%;
+		height:60px;
+		
+		
+	
+	}
+	.userc{
+		display:block;
+		margin:0 auto;
+		margin-top:3%;
+		margin-bottom:3%;
+		margin-left:3%;
+		width:85%;
+		height:100px;
+		float:left;
+		
+		
+	
+	}
+	.userc input[type=text]{
+		width:95%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv{
+		display:block;
+		margin:0 auto;
+		margin-top:5%;
+		margin-bottom:6%;
+		margin-left:3%;
+		width:97%;
+		height:60px;
+		box-sizing: border-box;
+		
+		
+	
+	}
+	.user input[type=text]{
+		width:80%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 55px;
+		color:black;
+		font-size:20px;
+	}
+	.userv input[type=text]{
+		width:80%;
+		display:inline;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background-image:url("img/icons.png") no-repeat scroll 0 0 transparent;
+		background-color: rgba(223, 219, 216, 0.4);
+		padding: 5px 5px 5px 5px;
+		color:black;
+		font-size:20px;
+		vertical-align:center;
+		text-decoration:none;
+	}
+	.fantasma{
+		display:none;
+			
+
+	
+	}
+	.fantasma input[type=text]{
+		display:none;
+	}
+	.user56{
+		
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 9%;
+		width: 40%;
+		min-height: 40%;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		padding: 5px 5px 5px 55px;
+		margin-left: 5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	.user4{
+		display: inline-block;
+		float:left;
+		width: 40%;
+		height: auto;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		margin-left:5%;
+		padding: 4%;
+		background-color: rgba(223, 219, 216, 0.4);
+
+	
+	}
+	.user4 *{
+		margin:0 auto;
+	}
+	input[type=text]:focus {
+		background-color: lightblue;
+	}
+	input[type=password]:focus {
+		background-color: lightblue;
+	}
+	.contra{
+		display:block;
+		margin:0 auto;
+		margin-top:1%;
+		margin-bottom:1%;
+		width:90%;
+		height:60px;
+		border: none;
+		border-bottom: 5px solid #006bbd;
+		background:url("img/icons2.png") no-repeat scroll 0 0 transparent;
+		padding: 6px 6px 6px 55px;
+	}
+
+	input[type=submit], input[type=reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		text-transform: uppercase;
+		display:inline-block;
+		width:90%;
+		margin-top:7%;
+		margin-bottom:7%;
+		margin-left:4%;
+		
+		
+	}
+
+
+	.logon:hover {
+						box-shadow: 0 0 5px ;
+						background-color:white;
+						color:black;
+		}
+		
+		
+	.mensaje{
+		color: black;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom:6%;
+			
+	}
+
+	.thumb {	width: 100%;
+				height: 40%;
+				border: 1px solid #000;
+				margin: 20px 0px 0px -40px;
+			}
+			
+			
+	.usercontac{
+		display:inline-block;
+		width:45%;
+		
+		float:right;
+		margin-right:5%;
+		background-color: rgba(223, 219, 216, 0.4);
+	}
+
+
+	input::placeholder{
+		color:black !important; 
+	}
+
+	input[type=button]{
+		background-color: #4CAF50;
+		cursor: pointer;
+		margin: 5%;
+		float: right;
+	}
+	.botonera{
+		margin:0 auto;
+		width:30%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.extras{
+		display:block;
+	}
+	.agru{
+		display:inline-block;
+		float:right;
+		margin-left:5%;
+		margin-top:5%;
+		margin-bottom: 1%;
+		width:44%;
+	}
+	#lat{
+		display: none;
+	}
+	#long{
+		display: none;
+	}
+}

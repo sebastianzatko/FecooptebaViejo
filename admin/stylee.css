@@ -1,0 +1,31 @@
+.errorimg{
+    width:25%; height:40%;float:right;margin-right: 5%;display:inline-block;
+}
+.errorcaja{
+	width:30%;
+	float:right;
+	display:inline-block;
+}
+.errorcaja h2{
+	font-size: 30px;
+	color:#023859;
+	font-family: 'Open Sans', sans-serif;
+}
+.error404{
+	margin:2% auto;
+	width:70%;
+	display:inline-block;
+	
+}
+.errorvolver{
+	padding: 15px;
+	font-size: 35px;
+	background: #023859;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+}
+.errorvolver:hover{
+	background: white;
+	color: black;
+	
+}

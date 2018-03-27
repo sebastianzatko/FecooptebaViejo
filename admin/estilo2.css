@@ -1,0 +1,1681 @@
+
+@media screen and (min-width:700px) and (max-width:1000px) {   
+    .mensaje{
+        font-weight: 700;
+        font-size: 30px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 30px;
+        margin: 5%;
+        color: #023859;
+    }.thumb{
+        width: 90%;
+        height: 400px;
+    }
+    .fecha{
+        font-size: 20px;
+    }
+    
+    #files{
+        font-size: 20px;
+      margin:4%;
+    }
+    .notitable{
+        margin:4%;font-size: 20px;
+    } 
+   
+
+    form{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 20px;
+        margin: 4%;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 320%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        min-height: 10%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab2{
+        min-height: 10%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab3{
+        width: 100%;
+    }
+    .pectab4{
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px;  
+    }
+    .recipiente{
+        margin: 4%;
+        margin-bottom: 15%;
+       }}
+@media screen and (min-width:1001px) and (max-width:1400px) {   
+    .thumb{
+        width: 85%;
+        height: 500px;
+    }
+
+    .mensaje{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 40px;
+        margin: 5%;
+        color: #023859;
+    }
+    .fecha{
+        font-size: 22px;
+    }
+    #files{
+        font-size: 20px;
+      margin:4%;
+    }
+    .notitable{
+        margin:4%;font-size: 20px;
+    }    
+
+    form{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;    padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 20px;
+        margin: 2%;
+        margin-bottom: 7%;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 350%;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+   
+    }
+    .pectab1{
+        min-height: 15%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab2{
+        min-height: 15%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab3{
+        width: 100%;font-size: 20px;
+    }
+    .pectab4{
+        width: 100%;font-size: 20px;
+    } 
+    .sec{
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 18px; 
+    }
+    .recipiente{
+        margin: 2%; 
+        margin-bottom:7%;
+       }}
+@media screen and (min-width:1401px) and (max-width:1600px) {   
+    .mensaje{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 40px;
+        margin: 5%;
+        color: #023859;
+    }
+   
+    .thumb{
+        width: 90%;
+        height: 500px;
+    }
+    .fecha{
+        font-size: 22px;
+    }
+    #files{
+        font-size: 22px;
+      margin:4%;
+    }
+    .notitable{
+        margin:4%;font-size: 22px;
+    }    
+    form{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;    padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 100%;
+        height:50px ;
+        font-size: 22px;
+        margin: 2%;
+        margin-bottom: 7%;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 340%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    
+    }
+    .pectab1{
+       min-height: 15%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab2{
+        min-height: 15%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab3{
+        width: 100%;font-size: 22px;
+    }
+    .pectab4{
+        width: 100%;font-size: 22px;
+    } 
+    .sec{
+        
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 20px; 
+    }
+    .recipiente{
+        margin: 2%; 
+        margin-bottom:7%;
+       }
+       .titulocrear{
+        font-size: 30px;
+       }
+    }
+@media screen and (min-width:1601px) and (max-width:1800px) {   
+    .mensaje{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 40px;
+        margin: 5%;
+        color: #023859;
+    }
+   
+    .thumb{
+        width: 90%;
+        height: 600px;
+    }
+    .fecha{
+        font-size: 22px;
+    }
+    
+    #files{
+        font-size: 25px;
+        margin:4%;
+      }
+      .notitable{
+        font-size: 25px;
+          margin:4%;
+      }   
+
+    form{
+        width: 70%;
+        margin:0 auto;
+        width: 101%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 5%;
+    padding-bottom: 20%;
+    height: auto;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;    padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 96%;
+        height: 50px;
+        font-size: 25px;
+        margin: 2%;
+        margin-bottom: 7%;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 370%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 225%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+   .pectab1{
+        min-height: 15%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab2{
+        min-height: 15%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab3{
+        width: 100%;
+        font-size: 25px;
+    }
+    .pectab4{
+        font-size: 25px;
+        width: 100%;
+    } 
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 22px; 
+    }
+
+    .recipiente{
+        margin: 2%; 
+        margin-bottom:7%;
+       }
+       .titulocrear{
+        font-size: 40px;
+       }
+    }
+@media screen and (min-width:1801px) and (max-width:2000px) {   
+    .mensaje{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 40px;
+        margin: 5%;
+        color: #023859;
+    }
+    .thumb{
+        width: 90%;
+           height: 620px;
+    }
+   .fecha{
+       font-size: 25px;
+   }
+    #files{
+        font-size: 25px;
+        margin:4%;
+      }
+      .notitable{
+          margin:4%;
+          font-size: 25px;
+      } 
+
+    form{
+        width: 102%;
+    padding: 4%;
+    margin: 0 auto;
+    background: #f5f5f5;
+    height: 400%;
+    margin-left: -13px;
+    }
+    .soloquierolaluz{
+        background: #f5f5f5;
+        height: 77%;
+        padding: 7%;
+        width: 108%;
+        margin-left: -55px;
+       
+    }
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 30%;    padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        font-size: 20px;
+        width:45%;
+        height:30px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        font-size: 20px;
+        width:45%;
+        height:30px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+
+    }
+
+    .ingr{
+        width: 96%;
+        height: 50px;
+        font-size: 25px;
+        margin: 2%;
+        margin-bottom: 7%;
+    }
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 120%;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: 250%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        min-height: 15%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab2{
+        min-height: 15%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+        margin-top: 5%;
+    }
+    .pectab3{
+        width: 100%;
+        font-size: 25px;
+    }
+    .pectab4{
+        width: 100%;
+        font-size: 25px;
+    } 
+    .sec{
+    
+        margin-top: 10%;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 24px; 
+    }
+    .recipiente{
+        margin: 2%; 
+        margin-bottom:7%;
+       }
+       .titulocrear{
+        font-size: 50px;
+       }
+}
+@media screen and (min-width:2001px) and (max-width:2200px) {   
+    
+    .mensaje{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 3%;
+    }
+    .mensaje2{
+        font-weight: 400;
+        font-size: 40px;
+        margin: 5%;
+        color: #023859;
+    }
+    .thumb{
+        width: 90%;
+           height: 620px;
+    }
+    .fecha{
+        font-size: 25px;
+    }
+    #files{
+        font-size: 28px;
+        margin:4%;
+      }
+      .notitable{
+          margin:4%;
+          font-size: 28px;
+      } 
+
+    form{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .botons{
+        margin-top:2%;
+        float: right;
+        display: inline-block;
+        width: 50%;    padding-bottom: 10%;
+    }
+    .boton{
+        float: right;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: forestgreen;
+        color:white;
+    }
+    .boton:hover{
+        background-color: #023859;
+        color:white;
+    }
+    .canc{
+        float: left;
+        font-size: 30px;
+        width:49%;
+        height:60px;
+        background-color: red;
+        color:white;
+    }
+    .canc:hover{
+        background-color:blueviolet;
+        color:white;
+    }
+    .img{
+        margin-top:2%;
+    }
+
+    .ingr{
+        width: 96%;
+        height: 50px;
+        font-size: 27px;
+        margin: 2%;
+        margin-bottom: 7%;
+    }
+
+
+    .selec{
+        margin-bottom:2%;
+    }
+
+    .abajo{
+        margin-top:5%;
+    }
+
+    .divtabla{
+        height:40%;
+        overflow:auto;   
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .divtabla td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .divtabla1{
+        height:60%;
+        overflow:auto;   
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .divtabla1 td{
+        text-align:center ;
+        border:1px solid red;
+    }
+
+    .tabla1{
+        height:150px;
+        float: left; 
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla2{
+        height:150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tabla1 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla2 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla3{
+        height:150px;
+        float: left; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla4{
+        height:150px;
+        float: right; 
+        width: 35%;
+        margin: 0 auto;
+    }
+    .tabla3 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .tabla4 td{
+        text-align:center ;
+        border:1px solid red;
+        height: 30px;
+    }
+    .modtab{
+        width: 70%;
+        margin:0 auto;
+    }
+    .secnoti{
+        padding: 15px 15px 0px 15px;
+        height: 450%;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+        background-color: #F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .secnoti1{
+        padding: 15px 15px 50px 15px;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+
+    }
+    .pectab1{
+        min-height: 10%;
+        overflow-y:scroll;   
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .pectab2{
+        min-height: 10%;
+        overflow-y: scroll; 
+        width: 50%;
+        float: right;
+        display: inline-block;
+       
+    }
+    .pectab3{
+        width: 100%;
+        font-size: 28px;
+    }
+    .pectab4{
+        width: 100%;
+        font-size: 28px;
+    }
+    .checkbox{
+        -ms-transform: scale(2); 
+        -moz-transform: scale(2);
+        -webkit-transform: scale(5);
+        -o-transform: scale(2);
+        margin:30px;
+    }
+    .checkboxtext{
+        font-size: 90px;
+    }
+    .checkboxtext1{
+        font-size: 50px;
+    }  
+    .sec{
+    
+        
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .mail{
+        width: 70%;
+    }
+    .dire{
+        width: 70%;
+        height: 30px;
+    }
+    .mapsec{
+        padding: 15px 15px 50px 15px;
+        border-style: solid;
+        background-color:#F5F5F5;
+        font-family: 'lato',sans-serif;
+    }
+    .lol{
+        display: none;
+    }
+    #map{
+        display: block;
+        width:100%;
+        height:70%;
+    }
+    #geobusca{
+        vertical-align: bottom;
+        height: 30px;
+        background-color: #023859;
+        color:white;
+
+    }
+    .botonera{
+        display: block;
+    }
+    #mas{
+        background-color: forestgreen;
+        color:white;
+        height: 30px;
+    }
+    #menos{
+        
+        background-color: red;
+        color:white;
+        height: 30px;
+    }
+    .newtabla{
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    .newtabla th{
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .newtabla td{
+        border-right: solid 1px #000; 
+        border-left: solid 1px #000;
+        text-align:center ;
+        height: 30px;
+    }
+    .botons1{
+        margin-top:2%;
+        float: left;
+    }
+    .newtabla td a{
+        text-decoration:none;
+        font-size: 24px; 
+    }
+    
+   .recipiente{
+    margin: 2%; 
+    margin-bottom:7%;
+   }
+   .titulocrear{
+    font-size: 50px;
+   }
+}

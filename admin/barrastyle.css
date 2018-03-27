@@ -1,0 +1,787 @@
+@media screen and (min-width:701px) and (max-width:800px){
+    .oja{
+        position: fixed;
+        width: 2%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+		margin-top:20%;
+        
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.3s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -270px;
+        transition: left .1s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1000px){
+    .oja{
+        position: fixed;
+        width: 2%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.3s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -270px;
+        transition: left .1s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1200px){
+     .oja{
+        position: fixed;
+        width: 2%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.3s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -270px;
+        transition: left .1s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1400px){
+    .oja{
+        position: fixed;
+        width: 2%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.3s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -270px;
+        transition: left .1s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:1401px) and (max-width:1600px){
+    .oja{
+        position: fixed;
+        width: 20%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.2s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -320px;
+        transition: left .2s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:1601px) and (max-width:1800px){
+    .oja{
+        position: fixed;
+        width: 20%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.2s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -320px;
+        transition: left .2s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:1801px) and (max-width:2000px){
+    .oja{
+        position: fixed;
+        width: 20%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.2s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -320px;
+        transition: left .2s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:2001px) {
+   .oja{
+        position: fixed;
+        width: 20%;
+        top: 0;
+        left: 0;
+        font-family: 'Roboto', sans-serif;
+		z-index: 1000;
+        margin-top:20%;
+    }
+    #botonmenu{
+        font-size: 30px;
+        color:#fff;
+        border: solid #023859;
+    border-width: 5px;
+    cursor: pointer;
+    background: #023859;
+    }
+    .barra{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 100vh;
+    background:rgba(0,0,0,.0);
+    transition: background 0.2s;
+    }
+    .barra ul{
+        width: 270px;
+        height: 100%;
+        background: #fff;
+        list-style: none;
+
+        position: absolute;
+        top:0;
+        left: -320px;
+        transition: left .2s;
+    }
+    .barra .lista1 li.inicio{
+        padding: 15px;
+        background:#023859 ;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+    }
+    .barra .lista1 a{
+        display: block;
+        padding: 17px;
+        border-bottom: 1px solid #C6D0DA;
+        font-size: 22px;
+        font-weight: 200;
+        text-decoration: none;
+        color:#575D69;
+    }
+    .barra .lista1 a:hover{
+        background: #006bbd;
+        color:#fff;
+    }
+
+    .barra .lista1 .item-sublista > a::after{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f105';
+
+        float: right;
+        color:#C6D0DA;
+    }
+    .lista1{
+        border-right: 5px solid #575D69;
+    }
+    /* */
+    .sublista{
+        border-right: 5px solid #575D69;
+    }
+    .barra .sublista li.inicio{
+        background: #fff;
+        color: #575D69;
+    }
+    .barra .sublista li.atras{
+        padding: 10px 20px;
+        background: #023859;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .barra .sublista li.atras::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content:'\f0d9';
+        margin-right: 10px;
+    }
+}

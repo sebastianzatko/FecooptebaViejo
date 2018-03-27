@@ -1,0 +1,9 @@
+[23-Mar-2018 14:16:37 UTC] PHP Warning:  require(conection.php): failed to open stream: No such file or directory in /home/u519469703/public_html/sent.php on line 9
+[23-Mar-2018 14:16:37 UTC] PHP Warning:  require(conection.php): failed to open stream: No such file or directory in /home/u519469703/public_html/sent.php on line 9
+[23-Mar-2018 14:16:37 UTC] PHP Fatal error:  require(): Failed opening required 'conection.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/u519469703/public_html/sent.php on line 9
+[23-Mar-2018 14:18:34 UTC] PHP Notice:  Undefined index: mensaje in /home/u519469703/public_html/sent.php on line 14
+[23-Mar-2018 14:18:34 UTC] PHP Notice:  Undefined index: email in /home/u519469703/public_html/sent.php on line 15
+[23-Mar-2018 14:18:34 UTC] PHP Notice:  Undefined index: nombre in /home/u519469703/public_html/sent.php on line 17
+[23-Mar-2018 14:19:24 UTC] PHP Notice:  Undefined index: mensaje in /home/u519469703/public_html/sent.php on line 14
+[23-Mar-2018 14:19:24 UTC] PHP Notice:  Undefined index: email in /home/u519469703/public_html/sent.php on line 15
+[23-Mar-2018 14:19:24 UTC] PHP Notice:  Undefined index: nombre in /home/u519469703/public_html/sent.php on line 17

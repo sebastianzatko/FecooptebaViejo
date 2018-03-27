@@ -1,0 +1,441 @@
+/**************************** vevr asociado *************************************/
+.detalleasociado {
+    font-family: 'Nunito', sans-serif;
+    border-style: solid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #f5f5f5;
+    color: black;
+    border-color: #023859;
+    border-radius: 20px;
+}
+
+
+.imgcoop23 {
+    height: 43%;
+    width: 43%;
+    margin: 3%;
+}
+.mapa {
+    display: inline;
+    float: right;
+    width: 50%;
+    min-height: 43%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: #023859;
+    border-width: 5px;
+    margin: 5%;
+}
+
+.data {
+    font-size: 25px;
+    margin: 2%;
+    margin-top: 1%;
+	margin-bottom: 8%;
+}
+
+.spandata {
+    margin-top: 2%;
+    width: 48%;
+    height: 7%;
+    display: inline-block;
+}
+
+
+/*****************************  ENtes relacionados**************************************/
+
+.relacionados {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    background: #023859;
+    padding: 3%;
+}
+
+.encabezao2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 55px;
+}
+.cajaasociados {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 40%;
+    margin: 2%;
+    background: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #006bbd;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0,107,189, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+div.text a.link {
+    margin-top: 9%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 20px;
+    background: #80c8ee;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+
+/******************************* ver noticia ********************************************/
+
+.contenidonoticia {
+    display: inline-block;
+    background: #f5f5f5;
+}
+.cuadronoticia{
+		width: 65%;
+    padding: 5%;
+    margin-left: 5%;
+    border-style: solid;
+    background-color: white;
+    border-color: #006bbd;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-bottom: 5%;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 0%;
+	}
+.detalleportada{
+		width: 120%;
+		height: 45%;
+		margin-left: -10%;
+	}
+.noticiadetalle{
+		margin-left: 4%;
+    margin-right: 4%;
+    color: grey;
+    font-size: 25px;
+    margin-bottom: 9%;
+    margin-top: 7%;
+	}
+.titulodetalle{
+		letter-spacing: 1px;
+		color: white;
+		background-color: #006bbd;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		font-size: 32px;
+		font-family: 'Encode Sans Condensed', sans-serif;
+		margin-left: -10%;
+		width: 120%;
+	}
+
+
+.textodetalle {
+    margin-top: 40px;
+    line-height: 32px;
+    font-size: 19px;
+    word-wrap: break-word;
+    font-family: Georgia,"serif";
+    font-weight: 500;
+}
+
+ 
+.otrasnoti{
+		margin-top: 3%;
+		width: 25%;
+		float: right;
+		
+		display: inline-block;
+		background-color: white;
+		margin-bottom: 20px;
+		border-color: #006bbd;
+	}
+.fija3{
+		width: 100%;
+    height: 30%;
+    margin-bottom: 20%;
+    position: relative;
+	}
+.escondido {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #006bbd;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.tituloextra {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.see {
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #023859;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    position: relative;
+    top: 60%;
+    font-size: 22px;
+}
+
+.otrasnotitulo {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    background: #023859;
+    padding: 3%;
+}
+
+
+
+/********************** eliminar asociado y coop ***************************************/
+ margin-bottom: 8%;
+
+		#izq{
+            float:right;
+        }
+        #der{
+            float:left;
+        }
+			.divtabla2{
+				width:49%!important; 
+				height:60%!important;
+				overflow-y: scroll!important;
+				display: inline!important;
+				font-family: 'Montserrat', sans-serif!important;
+			}
+			.divtabla1{
+				width:49%!important; 
+				height:60%!important;
+				overflow-y: scroll!important;
+				display: inline!important;
+				font-family: 'Montserrat', sans-serif!important;
+			}
+
+/************************** CONTACTO ***************************************************/
+
+		margin: 3%;
+		font-size: 24px;
+
+
+/************************** crear noti **********************************************/
+	height: 23%;
+    padding: 7%;
+    width: 108%;
+    margin-left: -55px;
+    background: #f5f5f5;
+/**************************** relevancia***************************************/
+form {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+    float: right;
+    margin-right: 10%;
+}
+
+.botons1 {
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+
+/**********************************COMISIONES****************************************/
+    overflow: hidden;
+    background-image: url(img/img1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center center;
+
+
+
+
+
+/**************************************** HEADER **************************************/
+background:#034D82;
+    border-color: #0089ce;
+	
+/* nav blanco*/
+border-color:#006bbd;
+
+                        #80c8ee
+                  #023859
+
+			#006bbd
+#08304D
+/***************************************** INDEX 2 ********************************************/
+
+.obj{
+		padding: 4%;
+		margin-left: 1%;
+		width: 90%;
+		margin: 5%;
+		border-style: solid;
+		border-color: #034D82;
+		border-width: 10px;
+		border-left: none;
+		border-right: none;
+		background: #2980B9;
+		display: inline-block;
+		min-height: 50%;
+		float: right;
+		border-radius: 41px;
+		margin-top: 4%;
+		MARGIN-BOTTOM: 7%;
+		
+		
+	}
+	
+.hist{
+		width: 90%;
+		padding: 4%;
+		margin-left: 1%;
+		margin: 5%;
+		border-radius: 41px;
+		border-style: solid;
+		border-color: #034D82;
+		border-width: 10px;
+		border-left: none;
+		border-right: none;
+		background: #7FB3D5;
+		display: inline-block;
+		min-height: 50%;
+		margin-top: 7%;
+		MARGIN-BOTTOM: 7%;
+	}
+/********************************************* INDEX  3 *************************************/
+	
+	
+.documentos{
+		padding: 4%;
+		margin-left: 1%;
+		width: 45%;
+		margin: 2%;
+		border-radius: 41px;
+		border-style: solid;
+		border-color: #034D82;
+		border-width: 10px;
+		border-left: none;
+		border-right: none;
+		background: #7FB3D5;
+		display: inline-block;
+		min-height: 50%;
+		margin-top: 7%;
+		MARGIN-BOTTOM: 7%;
+	}
+	.documentos h2{
+		margin-bottom:3%;
+		font-family: 'Nunito', sans-serif;
+		color: #023859;
+	}
+	
+	
+	.texin{
+		padding: 4%;
+		margin-left: 1%;
+		width: 45%;
+		margin: 2%;
+		border-style: solid;
+		border-color: #034D82;
+		border-width: 10px;
+		border-left: none;
+		border-right: none;
+		background: #2980B9;
+		display: inline-block;
+		min-height: 50%;
+		float: right;
+		border-radius: 41px;
+		margin-top: 7%;
+		MARGIN-BOTTOM: 7%;
+	}
+
+	.texin h2{
+		margin-bottom:3%;
+		font-family: 'Nunito', sans-serif;
+	}
+	.lista{
+		overflow-y: scroll;
+		background-color: #D6EAF8;
+		float: bottom;
+		border-radius: 22px;
+		height: 30%;
+		font-size: 23px;
+		margin-top: 5%;
+	}
+	.check{
+		text-align:justify;
+		font-size:27px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		
+		color:white;
+	}
+	
+	.ul1{
+		margin-left:55px; 
+		
+		
+	}
+	.li32{
+		text-align:;
+		list-style-image: url("img/down.png");
+		margin: 20px;
+    font-size: 30px;
+	}
+	
+	.ul2{
+		margin-left:255px;
+		margin-top:-77px;
+	}
+	.listadoc{
+		font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
+		color: black;
+	}
+	.parrafodoc{
+		margin-top: -5px;
+	}
+	/*index3 fin*/

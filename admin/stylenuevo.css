@@ -1,0 +1,295 @@
+
+
+/*** resolucion Punto de rotura: 1000px -1400px; *****************************************************************************************************************************/
+
+@media only screen and (min-width:1000px) and (max-width:1400px) {
+	
+	* {margin:0; padding:0;}
+
+	html,body { 
+		background:#3c4c55;
+		height:100%;
+		width:100%;
+	}
+	
+/* on header*/
+	.menu_bar {
+		display:none;
+	}
+	 .logo{
+		 display:none;
+	 }
+	header {
+		width: 100%;
+	}
+	 
+	header nav {
+		background:#023859;
+		z-index:1000000;
+		max-width: 1000px;
+		width:95%;
+		margin:20px auto;
+	}
+	.fr-view{
+		display:inline-block;
+	}
+	 
+	header nav ul {
+		list-style:none;
+	}
+	 
+	header nav ul li {
+		display:inline-block;
+		position: relative;
+	}
+	 
+	header nav ul li:hover {
+		background:#E6344A;
+	}
+	 
+	header nav ul li a {
+		color:#fff;
+		display:block;
+		text-decoration:none;
+		padding: 20px;
+	}
+	 
+	header nav ul li a span {
+		margin-right:10px;
+	}
+	 
+	header nav ul li:hover .children {
+		display:block;
+	}
+	 
+	header nav ul li .children {
+		display: none;
+		background:#011826;
+		position: absolute;
+		width: 150%;
+		z-index:1000;
+	}
+	 
+	header nav ul li .children li {
+		display:block;
+		overflow: hidden;
+		border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+	 
+	header nav ul li .children li a {
+		display: block;
+	}
+	 
+	header nav ul li .children li a span {
+		float: right;
+		position: relative;
+		top:3px;
+		margin-right:0;
+		margin-left:10px;
+	}
+	 
+	header nav ul li .caret {
+		position: relative;
+		top:3px;
+		margin-left:10px;
+		margin-right:0px;
+	}
+		body {
+		padding-top:80px;
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#034D82;
+		z-index:1100;
+		
+	}
+ 
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 25px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: right;
+	}
+/*off header*/
+
+/*index de EDICION DE PUBLICACIONES FIJAS*/
+
+	.pubfijasedicion{
+	width: 40%;
+    padding: 20px 30px;
+    left: 29%;
+
+    position: relative;
+    float: center;
+    display: inline;
+    text-decoration: none;
+    margin-top: 4%;
+    margin-bottom: 4%;
+	}
+	.textfijaedicion{
+		margin:2%;
+	}
+	.fijaedicionfin{
+	padding: 17px 30px;
+    color: #fff;
+    float: right;
+    font-family: 'Oxygen', sans-serif;
+    background: #40A46F;
+    border: 1px solid #40A46F;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    outline: none;
+    width: 100%;
+    -webkit-appearance: none;
+	margin-top:4%;
+	}
+	/**NUEVA NOTICIA*/
+	.newnotiinput{
+		padding: 15px;
+    font-size: 1.1em;
+    margin: 18px 0px;
+    color: #666666;
+    width: 87%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    outline: none;
+    font-weight: 600;
+    margin-left: 3px;
+    background: #FFFFFF;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-left: 6px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+	}
+	
+	
+	
+}
+
+/************************************************************************************ RESOLUCION A 560 HASTA 700 px**********************/
+@media only screen and (min-width: 560px) and (max-width: 700px) {
+	
+	* {margin:0; padding:0;}
+
+	body { 
+		background:#ede8e4;
+		height:100%;
+		width:100%;
+	}
+/* on header*/
+	header{ 
+		width:100%;
+		overflow:hidden;
+		background:#80c8ee;
+		margin-bottom:20px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+
+	header .logo{
+		text-align:left;
+		color:#034D82;
+		font-size:100px;
+		line-height:200px;
+		margin-left:5%;
+	}
+
+	header nav {
+		text-align:center;
+		line-height:70px;
+		
+		border-style:solid;
+		border-color:#006bbd;
+		border-width:10px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+	}
+
+	header nav a{ 
+		display:inline-block;
+		color:#fff;
+		text-decoration:none;
+		padding:11px 11px;
+		line-height:normal;
+		
+		font-size:20px;
+		font-weight:bold;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+	}
+
+	header nav a:hover{
+		background:#034D82;
+		border-radius:30px;
+		
+		
+	}
+	.logo{
+		width:90%;
+		margin:5%
+	}
+/*off header*/
+
+/*index1 comienzo*/
+	
+	
+
+}
